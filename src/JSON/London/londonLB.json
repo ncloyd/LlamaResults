@@ -1,0 +1,36 @@
+
+  {
+    "restaurants": [
+      {"name": "BAO Soho",
+      "url": "https://baolondon.com/",
+      "photo": "https://i.imgur.com/APN4Mfl.jpg"}, 
+      {"name": "Barrafina",
+      "url": "http://www.barrafina.co.uk/",
+      "photo": "https://i.imgur.com/9cxkba7.jpg"}, 
+      {"name": "Dishoom Shoreditch",
+      "url": "http://www.dishoom.com/shoreditch/",
+      "photo": "https://i.imgur.com/uJT77v0.jpg"}
+    ],
+    "landmarks": [
+      {"name": "The Shard",
+      "url": "https://www.the-shard.com/",
+      "photo": "https://i.imgur.com/EKeGkuz.jpg"},
+      {"name": "Tower of London",
+      "url": "https://www.hrp.org.uk/tower-of-london/",
+      "photo": "https://i.imgur.com/xTDxXTJ.jpg"},
+      {"name": "Trafalgar Square",
+      "url": "https://www.london.gov.uk/about-us/our-building-and-squares/trafalgar-square",
+      "photo": "https://i.imgur.com/ka7WCGl.jpg"}
+    ],
+    "activities": [
+      {"name": "Grosvenor Casino St Giles",
+      "url": "https://www.grosvenorcasinos.com/local-casinos/st-giles",
+      "photo": "https://i.imgur.com/x1eAGSU.jpg"},
+      {"name": "London Eye",
+      "url": "https://www.londoneye.com/",
+      "photo": "https://i.imgur.com/LhxWX2i.jpg"},
+      {"name": "Brick Lane Music Hall",
+      "url": "https://www.bricklanemusichall.co.uk/",
+      "photo": "https://i.imgur.com/HzBro1N.jpg"}
+    ]
+  }

@@ -1,0 +1,16 @@
+.card {
+	width: 700px;
+	height: 800px;
+	overflow: scroll;
+	border: 1px solid black;
+	text-align: center;
+}
+
+.card img {
+	width: 80%;
+	/*display: block;*/
+}
+
+.card a {
+	display: block;
+}
