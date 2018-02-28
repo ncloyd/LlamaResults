@@ -1,16 +1,87 @@
 .card {
-	width: 700px;
+	width: 95%;
 	height: 800px;
 	overflow: scroll;
 	border: 1px solid black;
 	text-align: center;
+	margin: auto;
 }
 
 .card img {
 	width: 80%;
-	/*display: block;*/
+	border: 1px solid black;
+	border-radius: 10px;
+	box-shadow: 2px 2px 5px black;
+	margin-bottom: 5px;
+}
+
+.card img:hover {
+	box-shadow: 2px 2px 10px #d57379;
+	filter:brightness(115%);
 }
 
 .card a {
 	display: block;
+	color: black;
+}
+
+.card a:hover {
+	color: red;
+}
+
+.card h2 {
+	margin: 0px auto;
+}
+
+/*.rest, .land {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+	grid-gap: 10px;
+}
+
+.rest div:nth-child(3), .land div:nth-child(3) {  
+  	grid-column: 1/3;
+}
+
+.rest div:nth-child(3) img, .land div:nth-child(3) img {  
+  	width: 90%;
+}*/
+
+.act, .rest, .land {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+	grid-gap: 10px;
+}
+
+.rest, .land, .act {
+	padding: 20px 30px;
+	border-top: 1px solid black;
+	border-bottom: 1px solid black;
+}
+
+.rest {
+	background-image: url("https://i.imgur.com/eG4zlnT.jpg");
+	background-repeat:repeat;
+	margin-bottom: 10px;
+}
+
+.land {
+	background-color: yellow;
+	margin-bottom: 10px;
+}
+
+.land {
+	background-image: url("https://i.imgur.com/BDBN0sq.jpg");
+	background-repeat:repeat;
+	margin-bottom: 10px;
+}
+
+.act {
+	background-color: green;
+}
+
+.act {
+	background-image: url("https://i.imgur.com/QKScEM3.jpg");
+	background-repeat:repeat;
+	margin-bottom: 10px;
 }

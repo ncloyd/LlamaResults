@@ -1,7 +1,6 @@
 import React from "react";
 import NavBar from "./components/NavBar";
 import Wrapper from "./components/Wrapper";
-import LondonLaidBack from "./components/Cards/LondonLaidBack";
 import "./app.css";
 
 const App = () => (
@@ -10,10 +9,7 @@ const App = () => (
    <NavBar />
   </div>
   <div className="results">
-    <Wrapper>
-      <LondonLaidBack />
-      
-    </Wrapper>
+    <Wrapper />
   </div>
 </div>
 );
