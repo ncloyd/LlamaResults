@@ -1,0 +1,112 @@
+[
+  {
+    "personality": "Laid-Back",  
+    "restaurants": [
+      {"name": "Crosby's Kitchen",
+      "url": "http://www.crosbyschicago.com/",
+      "photo": "https://i.imgur.com/BxO6tsI.jpg"},
+      {"name": "Mi Tocaya Antojería",
+      "url": "http://www.mitocaya.com/",
+      "photo": "https://i.imgur.com/UzGxhRA.jpg"},
+      {"name": "Doc B's Fresh Kitchen",
+      "url": "https://docbsfreshkitchen.com/",
+      "photo": "https://i.imgur.com/kwjK6Rr.jpg"}
+    ],
+    "landmarks": [
+      {"name": "Chicago Riverwalk",
+      "url": "https://www.chicagoriverwalk.us/",
+      "photo": "https://i.imgur.com/jCnF7CA.jpg"},
+      {"name": "Millennium Park",
+      "url": "https://www.cityofchicago.org/city/en/depts/dca/supp_info/millennium_park.html",
+      "photo": "https://i.imgur.com/RAn0Rr8.jpg"},
+      {"name": "Museum Campus",
+      "url": "https://www.choosechicago.com/things-to-do/museums-and-arts/museums-galleries-and-exhibitions/chicago-museum-campus-101/",
+      "photo": "https://i.imgur.com/GJFUqkA.jpg"}
+    ],
+    "activities": [
+      {"name": "Wrigley Field",
+      "url": "http://chicago.cubs.mlb.com/chc/ballpark/",
+      "photo": "https://i.imgur.com/tlsfUdh.jpg"},
+      {"name": "Adler Planetarium",
+      "url": "https://www.adlerplanetarium.org/",
+      "photo": "https://i.imgur.com/ZYrgWV6.jpg"},
+      {"name": "Shedd Aquarium",
+      "url": "https://www.sheddaquarium.org/",
+      "photo": "https://i.imgur.com/f7aIGzv.jpg"}
+    ]
+  },
+
+  {
+    "personality": "Tourist",
+    "restaurants": [
+      {"name": "Pequod's Pizza",
+      "url": "https://pequodspizza.com/",
+      "photo": "https://i.imgur.com/59gOf4M.jpg"},
+      {"name": "Lou Mitchell's Restaurant",
+      "url": "http://www.loumitchells.com/",
+      "photo": "https://i.imgur.com/bQqnyHZ.jpg"},
+      {"name": "The Capital Grille",
+      "url": "https://www.thecapitalgrille.com/locations/il/chicago/chicago-downtown/8008",
+      "photo": "https://i.imgur.com/mmQ9Dm8.jpg"}
+    ],
+    "landmarks": [
+      {"name": "Navy Pier",
+      "url": "https://navypier.org/",
+      "photo": "https://i.imgur.com/CD44qPT.jpg"},
+      {"name": "Willis Tower",
+      "url": "http://www.willistower.com/",
+      "photo": "https://i.imgur.com/F40ecE9.jpg"},
+      {"name": "Chicago Cultural Center",
+      "url": "https://www.cityofchicago.org/city/en/depts/dca/supp_info/chicago_culturalcenter.html/",
+      "photo": "https://i.imgur.com/P5gvRzo.jpg"}
+    ],
+    "activities": [
+      {"name": "Magnificent Mile",
+      "url": "https://themagnificentmile.com/",
+      "photo": "https://i.imgur.com/2sTYjxu.jpg"},
+      {"name": "Art Institute of Chicago",
+      "url": "http://www.artic.edu/",
+      "photo": "https://i.imgur.com/Z7P69XQ.jpg"},
+      {"name": "Al Capone Gangster Tour",
+      "url": "https://chicagocrimetours.com/",
+      "photo": "https://i.imgur.com/9lIl7D0.jpg"}
+    ]
+  },
+
+  {
+    "personality": "Adventurous",
+    "restaurants": [
+      {"name": "Fat Rice",
+      "url": "http://www.eatfatrice.com/",
+      "photo": "https://i.imgur.com/wq3M2ON.jpg"},
+      {"name": "The Purple Pig",
+      "url": "https://thepurplepigchicago.com/",
+      "photo": "https://i.imgur.com/EeNzETQ.jpg"},
+      {"name": "Restaurant Sarajevo",
+      "url": "http://www.restaurantsarajevo.com/",
+      "photo": "https://i.imgur.com/RMUqs4G.jpg"}
+    ],
+    "landmarks": [
+      {"name": "Skydeck",
+      "url": "http://theskydeck.com/",
+      "photo": "https://i.imgur.com/OahQoMv.jpg"},
+      {"name": "Promontory Point",
+      "url": "https://en.wikipedia.org/wiki/Promontory_Point_(Chicago)",
+      "photo": "https://i.imgur.com/cTruzrp.jpg"},
+      {"name": "Murder Castle",
+      "url": "http://chicagoist.com/2015/11/02/i_was_born_with_the_devil_in_me_a_h.php",
+      "photo": "https://i.imgur.com/0rDz1gx.jpg"}
+    ],
+    "activities": [
+      {"name": "Go Ape Zipline",
+      "url": "https://goape.com/Locations/Illinois/Chicago",
+      "photo": "https://i.imgur.com/ewMFkrL.jpg"},
+      {"name": "Chicago Detours",
+      "url": "http://www.chicagodetours.com/",
+      "photo": "https://i.imgur.com/wCaiuAJ.jpg"},
+      {"name": "Chicagoland Skydiving Center",
+      "url": "https://www.skydivecsc.com/",
+      "photo": "https://i.imgur.com/LWyf9Vy.jpg"}
+    ]
+  }
+]

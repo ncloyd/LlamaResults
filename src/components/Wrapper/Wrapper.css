@@ -1,17 +1,31 @@
 .wrapper {
-  margin: 0 auto;
-  background: #ECEFF1;
-  width: 70%;
-  padding: 0px 50px 50px 50px;
-  overflow: scroll;
-  display: flex;
-  flex-direction: column;
+  margin: 0 auto 10px auto;
+  background: black;
+  width: 90%;
+  padding: 0 3px 20px 3px;
+/*  display: flex;
+  flex-direction: column;*/
   text-align: center;
   border: 1px solid black;
   border-radius: 5px;
-  box-shadow: 2px 2px 8px black;
+  box-shadow: 2px 2px 8px white;
 }
 
-.wrapper h1 {
+.wrapper h5 {
   margin: 20px auto;
+  color: white;
+  font-size: 36px;
+}
+
+button {
+  margin: 20px auto;
+  width: 200px;
+  height: 75px;
+  display: flex;
+}
+
+button h3 {
+  margin: auto;
+  font-size: 40px;
+  font-family: Tahoma, Geneva, sans-serif;
 }
