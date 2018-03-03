@@ -43,8 +43,8 @@ class LondonAdventurous extends Component {
 	render() {
 	    return (
 	      <div className="card">
-		    <h1>Restaurants</h1>
-			    <div className="rest">		      	
+			<div className="rest">
+			    <h1>Restaurants</h1>      	
 		      		<div id="rest1">
 				        <a href={this.state.restaurants[0].url} target="blank">
 					        <img className="photo" alt={this.state.restaurants[0].name} src={this.state.restaurants[0].photo}/>
@@ -65,8 +65,8 @@ class LondonAdventurous extends Component {
 				    </div>
 			    </div>
 
-		    <h1>Landmarks</h1>
-			    <div className="land">
+			<div className="land">
+			    <h1>Landmarks</h1>
 			    	<div id="land1">
 				        <a href={this.state.landmarks[0].url} target="blank">
 					        <img className="photo" alt={this.state.landmarks[0].name} src={this.state.landmarks[0].photo}/>
@@ -86,9 +86,9 @@ class LondonAdventurous extends Component {
 				        </a>
 				    </div>
 			    </div>
-
-			<h1>Activities</h1>
-		    	<div className="act">
+			
+		   	<div className="act">
+		    	<h1>Activities</h1>
 		    		<div id="act1">		      	
 				        <a href={this.state.activities[0].url} target="blank">
 					        <img className="photo" alt={this.state.activities[0].name} src={this.state.activities[0].photo}/>

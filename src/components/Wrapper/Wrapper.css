@@ -1,14 +1,14 @@
 .wrapper {
   margin: 0 auto 10px auto;
-  background: black;
-  width: 90%;
-  padding: 3px;
+  background: #5c9294;
+  width: 80%;
+  padding: 4px;
 /*  display: flex;
   flex-direction: column;*/
   text-align: center;
   border: 1px solid black;
   border-radius: 5px;
-  box-shadow: 2px 2px 8px white;
+  /*box-shadow: 2px 2px 8px black;*/
 }
 
 .wrapper h5 {

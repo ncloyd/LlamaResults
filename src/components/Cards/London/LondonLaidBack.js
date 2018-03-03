@@ -43,51 +43,69 @@ class LondonLaidBack extends Component {
 	render() {
 	    return (
 	      <div className="card">
-		    <h1>Restaurants</h1>
-			    <div className="rest">		      	
+			<div className="rest">
+			    <h1>Restaurants</h1>      	
 		      		<div id="rest1">
-				        <img className="photo" alt={this.state.restaurants[0].name} src={this.state.restaurants[0].photo}/>
-				        <h2><a href={this.state.restaurants[0].url} target="blank">{this.state.restaurants[0].name}</a></h2>
+				        <a href={this.state.restaurants[0].url} target="blank">
+					        <img className="photo" alt={this.state.restaurants[0].name} src={this.state.restaurants[0].photo}/>
+					        <h2>{this.state.restaurants[0].name}</h2>
+				        </a>
 				    </div>
 				    <div id="rest2">		        
-				        <img className="photo" alt={this.state.restaurants[1].name} src={this.state.restaurants[1].photo}/>
-				        <h2><a href={this.state.restaurants[1].url} target="blank">{this.state.restaurants[1].name}</a></h2>		        
+				        <a href={this.state.restaurants[1].url} target="blank">
+					        <img className="photo" alt={this.state.restaurants[1].name} src={this.state.restaurants[1].photo}/>
+					        <h2>{this.state.restaurants[1].name}</h2>
+				        </a>	        
 				    </div>
 				    <div id="rest3">			        
-				        <img className="photo" alt={this.state.restaurants[2].name} src={this.state.restaurants[2].photo}/>
-				        <h2><a href={this.state.restaurants[2].url} target="blank">{this.state.restaurants[2].name}</a></h2>			        
+				        <a href={this.state.restaurants[2].url} target="blank">
+					        <img className="photo" alt={this.state.restaurants[2].name} src={this.state.restaurants[2].photo}/>
+					        <h2>{this.state.restaurants[2].name}</h2>
+				        </a>	        
 				    </div>
 			    </div>
 
-		    <h1>Landmarks</h1>
-			    <div className="land">
+			<div className="land">
+			    <h1>Landmarks</h1>
 			    	<div id="land1">
-				        <img className="photo" alt={this.state.landmarks[0].name} src={this.state.landmarks[0].photo}/>
-				        <h2><a href={this.state.landmarks[0].url} target="blank">{this.state.landmarks[0].name}</a></h2>
+				        <a href={this.state.landmarks[0].url} target="blank">
+					        <img className="photo" alt={this.state.landmarks[0].name} src={this.state.landmarks[0].photo}/>
+					        <h2>{this.state.landmarks[0].name}</h2>
+				        </a>
 				    </div>
 				    <div id="land2">
-				        <img className="photo" alt={this.state.landmarks[1].name} src={this.state.landmarks[1].photo}/>
-				        <h2><a href={this.state.landmarks[1].url} target="blank">{this.state.landmarks[1].name}</a></h2>
+				        <a href={this.state.landmarks[1].url} target="blank">
+					        <img className="photo" alt={this.state.landmarks[1].name} src={this.state.landmarks[1].photo}/>
+					        <h2>{this.state.landmarks[1].name}</h2>
+				        </a>
 				    </div>
 				    <div id="land3">		        
-				        <img className="photo" alt={this.state.landmarks[2].name} src={this.state.landmarks[2].photo}/>
-				        <h2><a href={this.state.landmarks[2].url} target="blank">{this.state.landmarks[2].name}</a></h2>
+				        <a href={this.state.landmarks[2].url} target="blank">
+					        <img className="photo" alt={this.state.landmarks[2].name} src={this.state.landmarks[2].photo}/>
+					        <h2>{this.state.landmarks[2].name}</h2>
+				        </a>
 				    </div>
 			    </div>
-
-			<h1>Activities</h1>
-		    	<div className="act">
+			
+		   	<div className="act">
+		    	<h1>Activities</h1>
 		    		<div id="act1">		      	
-				        <img className="photo" alt={this.state.activities[0].name} src={this.state.activities[0].photo}/>
-				        <h2><a href={this.state.activities[0].url} target="blank">{this.state.activities[0].name}</a></h2>
+				        <a href={this.state.activities[0].url} target="blank">
+					        <img className="photo" alt={this.state.activities[0].name} src={this.state.activities[0].photo}/>
+					        <h2>{this.state.activities[0].name}</h2>
+				        </a>
 				    </div>
 				    <div id="act2">
-				        <img className="photo" alt={this.state.activities[1].name} src={this.state.activities[1].photo}/>
-				        <h2><a href={this.state.activities[1].url} target="blank">{this.state.activities[1].name}</a></h2>
+				        <a href={this.state.activities[1].url} target="blank">
+					        <img className="photo" alt={this.state.activities[1].name} src={this.state.activities[1].photo}/>
+					        <h2>{this.state.activities[1].name}</h2>
+				        </a>
 				    </div>
 				    <div id="act3">
-				        <img className="photo" alt={this.state.activities[2].name} src={this.state.activities[2].photo}/>
-				        <h2><a href={this.state.activities[2].url} target="blank">{this.state.activities[2].name}</a></h2>
+				        <a href={this.state.activities[2].url} target="blank">
+					        <img className="photo" alt={this.state.activities[2].name} src={this.state.activities[2].photo}/>
+					        <h2>{this.state.activities[2].name}</h2>
+				        </a>
 				    </div>
 		    	</div>
 
