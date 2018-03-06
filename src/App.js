@@ -8,6 +8,7 @@ const App = () => (
   <div>
    <NavBar />
   </div>
+
   <div className="results">
     <Wrapper />
   </div>
