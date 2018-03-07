@@ -7,37 +7,37 @@ class ThailandTourist extends Component {
 	state = {
 		picture: "https://raw.githubusercontent.com/ncloyd/LlamaResults/master/images/touristthailand.jpg",
 		restaurants: [
-	      {"name": "ABC Kitchen",
-	      "url": "http://www.abckitchennyc.com/",
-	      "photo": "https://i.imgur.com/lAA4Uw9.jpg"}, 
-	      {"name": "Bamonte's",
-	      "url": "https://www.facebook.com/pages/Bamontes-Restaurant/117607771598030",
-	      "photo": "https://i.imgur.com/dRu2Tmo.jpg"},
-	      {"name": "Balthazar",
-	      "url": "http://balthazarny.com/",
-	      "photo": "https://i.imgur.com/za4IJBZ.jpg"}
+	      {"name": "Suay Restaurant",
+	      "url": "http://www.suayrestaurant.com/",
+	      "photo": "https://i.imgur.com/eEfSWOK.jpg"},
+	      {"name": "Feuang Nara",
+	      "url": "https://www.tripadvisor.com/Restaurant_Review-g293916-d2036960-Reviews-Feuang_Nara-Bangkok.html",
+	      "photo": "https://i.imgur.com/WzwjeHL.jpg"},
+	      {"name": "Le Vendôme",
+	      "url": "http://www.levendomerestaurant.com/home/",
+	      "photo": "https://i.imgur.com/2SA9Iym.jpg"}
 	    ],
 	    landmarks: [
-	      {"name": "Statue of Liberty",
-	      "url": "https://www.nps.gov/stli/index.htm",
-	      "photo": "https://i.imgur.com/y1zv92d.jpg"},
-	      {"name": "Empire State Building",
-	      "url": "http://www.esbnyc.com/",
-	      "photo": "https://i.imgur.com/THNubrD.jpg"},
-	      {"name": "Times Square",
-	      "url": "https://www.timessquarenyc.org/",
-	      "photo": "https://i.imgur.com/rFgOivS.jpg"}
+	      {"name": "Doi Inthanon National Park",
+	      "url": "https://www.thainationalparks.com/doi-inthanon-national-park",
+	      "photo": "https://i.imgur.com/5WM7naT.jpg"},
+	      {"name": "Grand Palace",
+	      "url": "http://www.bangkok.com/attraction-palace/grand-palace.htm",
+	      "photo": "https://i.imgur.com/LESdSgA.jpg"},
+	      {"name": "Wat Arun",
+	      "url": "http://www.bangkok.com/attraction-temple/wat-arun.htm",
+	      "photo": "https://i.imgur.com/NmRUPcp.jpg"}
 	    ],
 	    activities: [
-	      {"name": "Broadway Theatre",
-	      "url": "https://www.broadway.com/",
-	      "photo": "https://i.imgur.com/wbAstY5.jpg"},
-	      {"name": "Metropolitan Museum of Art",
-	      "url": "https://www.metmuseum.org/",
-	      "photo": "https://i.imgur.com/9qDEBy6.jpg"},
-	      {"name": "Madison Square Garden",
-	      "url": "https://www.msg.com/madison-square-garden",
-	      "photo": "https://i.imgur.com/fWq8noy.jpg"}
+	      {"name": "Phuket FantaSea",
+	      "url": "https://www.tripadvisor.com/Attraction_Review-g1379324-d455158-Reviews-Phuket_FantaSea-Kamala_Kathu_Phuket.html",
+	      "photo": "https://i.imgur.com/U5Ussi8.jpg"},
+	      {"name": "Floating Markets",
+	      "url": "http://www.bangkok.com/magazine/5-floating-markets.htm",
+	      "photo": "https://i.imgur.com/Me0fJV0.jpg"},
+	      {"name": "Tiffany's Show",
+	      "url": "https://www.tripadvisor.com/Attraction_Review-g293919-d1847172-Reviews-Tiffany_s_Show_Pattaya-Pattaya_Chonburi_Province.html",
+	      "photo": "https://i.imgur.com/gFCslXm.jpg"}
 	    ]
 	}
 
