@@ -52,12 +52,12 @@ const Wrapper = props =>
     </a>
 
 	<div className="wrapper locationPhoto">
-		<NYLaidBackPhoto/>
+		<LAAdventurousPhoto/>
 	</div>
 
 	<div className="wrapper">
 		<h5 id="itinerary">Itinerary</h5>
-		<NYLaidBack/>
+		<LAAdventurous/>
 	</div>
 
 	<a className="chevron" href=".locationPhoto">

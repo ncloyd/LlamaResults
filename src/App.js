@@ -5,13 +5,11 @@ import "./app.css";
 
 const App = () => (
 <div>
-  <div>
-   <NavBar />
-  </div>
 
-  <div className="results">
-    <Wrapper />
-  </div>
+  <NavBar />
+
+  <Wrapper />
+  
 </div>
 );
 
