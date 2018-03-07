@@ -2,48 +2,50 @@
 import React, {Component} from 'react';
 import "../cards.css";
 
-class ThailandAdventurous extends Component {
+class MexLaidBack extends Component {
 
 	state = {
+		picture: "https://raw.githubusercontent.com/ncloyd/LlamaResults/master/images/laidbackmexico.jpg",
 		restaurants: [
-	      {"name": "Vertigo Bar",
-	      "url": "https://www.banyantree.com/en/thailand/bangkok/dining/vertigo",
-	      "photo": "https://i.imgur.com/DxLHZCH.jpg"},
-	      {"name": "The Deck by Arun Residence",
-	      "url": "https://www.tripadvisor.com/Restaurant_Review-g293916-d816295-Reviews-The_Deck-Bangkok.html",
-	      "photo": "https://i.imgur.com/IcRPFlE.jpg"},
-	      {"name": "Sala Rim Naam",
-	      "url": "https://www.tripadvisor.com/Restaurant_Review-g293916-d866280-Reviews-Sala_Rim_Naam_at_Mandarin_Oriental_Bangkok-Bangkok.html",
-	      "photo": "https://i.imgur.com/suLK88c.jpg"}
+	      {"name": "Azul",
+	      "url": "http://azul.rest/",
+	      "photo": "https://i.imgur.com/viwWTYL.jpg"},
+	      {"name": "Lardo",
+	      "url": "http://www.lardo.mx/",
+	      "photo": "https://i.imgur.com/JCVn4na.jpg"},
+	      {"name": "La Guapachosa",
+	      "url": "http://www.laguapachosa.com/",
+	      "photo": "https://i.imgur.com/DafP2pb.jpg"}
 	    ],
 	    landmarks: [
-	      {"name": "Phi Phi Islands",
-	      "url": "http://www.phuket.com/island/phiphi.htm",
-	      "photo": "https://i.imgur.com/B39OW4B.jpg"},
-	      {"name": "Wat Chedi Luang",
-	      "url": "https://www.tripadvisor.com/Attraction_Review-g293917-d447585-Reviews-Wat_Chedi_Luang_Varavihara-Chiang_Mai.html",
-	      "photo": "https://i.imgur.com/rpPG4Tq.jpg"},
-	      {"name": "Elephant Nature Park",
-	      "url": "https://www.elephantnaturepark.org/",
-	      "photo": "https://i.imgur.com/BN3whf0.jpg"}
+	      {"name": "Chapultepec Park",
+	      "url": "https://www.tripadvisor.com/Attraction_Review-g150800-d152193-Reviews-Chapultepec_Park-Mexico_City_Central_Mexico_and_Gulf_Coast.html",
+	      "photo": "https://i.imgur.com/WVg2Rwq.jpg"},
+	      {"name": "Playacar Beach",
+	      "url": "https://www.locogringo.com/mexico/ways-to-play/riviera-maya-beaches/playacar/",
+	      "photo": "https://i.imgur.com/ZRRhRDZ.jpg"},
+	      {"name": "Great Pyramid of Tenochtitlán",
+	      "url": "https://www.flightcentre.com.au/world-travel/mexico/mexico-city/great-pyramid-of-tenochtitlan",
+	      "photo": "https://i.imgur.com/cXtPeVn.jpg"}
 	    ],
 	    activities: [
-	      {"name": "Safari World",
-	      "url": "https://www.tripadvisor.com/Attraction_Review-g293916-d455818-Reviews-Safari_World-Bangkok.html",
-	      "photo": "https://i.imgur.com/yTCLtAu.jpg"},
-	      {"name": "Burma Railway",
-	      "url": "https://www.tripadvisor.com.au/Attraction_Review-g297924-d1731130-Reviews-Thai_Burma_Railway_Death_Railway-Kanchanaburi_Kanchanaburi_Province.html",
-	      "photo": "https://i.imgur.com/K9DHNCB.jpg"},
-	      {"name": "Jungle Safari",
-	      "url": "https://www.phukettoursdirect.com/jungle-safari-tours.html",
-	      "photo": "https://i.imgur.com/0RCLDDr.jpg"}
+	      {"name": "Palacio de Bellas Artes",
+	      "url": "https://www.tripadvisor.com/Attraction_Review-g150800-d153969-Reviews-Palacio_de_Bellas_Artes-Mexico_City_Central_Mexico_and_Gulf_Coast.html",
+	      "photo": "https://i.imgur.com/t7MKA9H.jpg"},
+	      {"name": "Xcaret Park",
+	      "url": "http://www.xcaret.com/",
+	      "photo": "https://i.imgur.com/JUbMOta.jpg"},
+	      {"name": "Frida Kahlo Museum",
+	      "url": "http://www.museofridakahlo.org.mx/",
+	      "photo": "https://i.imgur.com/xQS16UQ.jpg"}
 	    ]
 	}
 
 	render() {
 	    return (
 	      <div className="card">
-			<div className="rest">
+	     	<img className="resultPhoto" src={this.state.picture}/>
+			<div className="rest" id="itinerary">
 			    <h1>Restaurants</h1>
 			       	<div className="Grid">
 			      		<div id="rest1">
@@ -121,4 +123,4 @@ class ThailandAdventurous extends Component {
   
 }
 
-export default ThailandAdventurous;
+export default MexLaidBack;

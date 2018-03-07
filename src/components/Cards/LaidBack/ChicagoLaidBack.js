@@ -2,48 +2,50 @@
 import React, {Component} from 'react';
 import "../cards.css";
 
-class MexAdventurous extends Component {
+class ChicagoLaidBack extends Component {
 
 	state = {
+		picture: "https://raw.githubusercontent.com/ncloyd/LlamaResults/master/images/touristchi.jpg",
 		restaurants: [
-	      {"name": "Yuban",
-	      "url": "yuban.mx",
-	      "photo": "https://i.imgur.com/AoeVXnL.jpg"},
-	      {"name": "Los Danzantes",
-	      "url": "losdanzantes.com",
-	      "photo": "https://i.imgur.com/i6awBTD.jpg"},
-	      {"name": "Pizza del Perro Negro",
-	      "url": "pizzadelperronegro.com",
-	      "photo": "https://i.imgur.com/ZNKAkJ8.jpg"}
+	      {"name": "Crosby's Kitchen",
+	      "url": "http://www.crosbyschicago.com/",
+	      "photo": "https://i.imgur.com/BxO6tsI.jpg"},
+	      {"name": "Mi Tocaya Antojería",
+	      "url": "http://www.mitocaya.com/",
+	      "photo": "https://i.imgur.com/UzGxhRA.jpg"},
+	      {"name": "Doc B's Fresh Kitchen",
+	      "url": "https://docbsfreshkitchen.com/",
+	      "photo": "https://i.imgur.com/kwjK6Rr.jpg"}
 	    ],
 	    landmarks: [
-	      {"name": "Xel-Ha Park",
-	      "url": "http://www.xelha.com/",
-	      "photo": "https://i.imgur.com/PdgM1o8.jpg"},
-	      {"name": "Arch of Cabo San Lucas",
-	      "url": "https://www.tripadvisor.com/Attraction_Review-g152515-d152880-Reviews-El_Arco_de_Cabo_San_Lucas_Lands_End-Cabo_San_Lucas_Los_Cabos_Baja_California.html",
-	      "photo": "https://i.imgur.com/fCioiz4.jpg"},
-	      {"name": "Popocatépetl",
-	      "url": "https://www.tripadvisor.com/Attraction_Review-g150796-d152737-Reviews-Popocatepetl-Central_Mexico_and_Gulf_Coast.html",
-	      "photo": "https://i.imgur.com/1rjF5l8.jpg"}
+	      {"name": "Chicago Riverwalk",
+	      "url": "https://www.chicagoriverwalk.us/",
+	      "photo": "https://i.imgur.com/jCnF7CA.jpg"},
+	      {"name": "Millennium Park",
+	      "url": "https://www.cityofchicago.org/city/en/depts/dca/supp_info/millennium_park.html",
+	      "photo": "https://i.imgur.com/RAn0Rr8.jpg"},
+	      {"name": "Museum Campus",
+	      "url": "https://www.choosechicago.com/things-to-do/museums-and-arts/museums-galleries-and-exhibitions/chicago-museum-campus-101/",
+	      "photo": "https://i.imgur.com/GJFUqkA.jpg"}
 	    ],
 	    activities: [
-	      {"name": "Sayulita Surfing",
-	      "url": "https://www.sayulitalife.com/surf",
-	      "photo": "https://i.imgur.com/cZjw2MF.jpg"},
-	      {"name": "Rock Climbing in El Potrero Chico",
-	      "url": "http://potrerochico.org/",
-	      "photo": "https://i.imgur.com/QQpDI3N.jpg"},
-	      {"name": "Copper Canyon Cycling",
-	      "url": "http://traveltips.usatoday.com/copper-canyon-cycling-19279.html",
-	      "photo": "https://i.imgur.com/MuOi4T3.jpg"}
+	      {"name": "Wrigley Field",
+	      "url": "http://chicago.cubs.mlb.com/chc/ballpark/",
+	      "photo": "https://i.imgur.com/tlsfUdh.jpg"},
+	      {"name": "Adler Planetarium",
+	      "url": "https://www.adlerplanetarium.org/",
+	      "photo": "https://i.imgur.com/ZYrgWV6.jpg"},
+	      {"name": "Shedd Aquarium",
+	      "url": "https://www.sheddaquarium.org/",
+	      "photo": "https://i.imgur.com/f7aIGzv.jpg"}
 	    ]
 	}
 
 	render() {
 	    return (
-	      <div className="card">
-			<div className="rest">
+	    <div className="card">
+	     	<img className="resultPhoto" src={this.state.picture}/>
+			<div className="rest" id="itinerary">
 			    <h1>Restaurants</h1>
 			       	<div className="Grid">
 			      		<div id="rest1">
@@ -118,7 +120,9 @@ class MexAdventurous extends Component {
 	      </div>
 	    );
 	}
+
+
   
 }
 
-export default MexAdventurous;
+export default ChicagoLaidBack;

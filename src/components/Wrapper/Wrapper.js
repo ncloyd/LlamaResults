@@ -1,47 +1,29 @@
 import React from "react";
 import "./Wrapper.css";
 
-import LondonLaidBack from "../Cards/London/LondonLaidBack";
-import LondonLaidBackPhoto from "../Cards/London/LondonLaidBackPhoto";
-import LondonAdventurous from "../Cards/London/LondonAdventurous";
-import LondonAdventurousPhoto from "../Cards/London/LondonAdventurousPhoto";
-import LondonTourist from "../Cards/London/LondonTourist";
-import LondonTouristPhoto from "../Cards/London/LondonTourist";
+import LondonLaidBack from "../Cards/LaidBack/LondonLaidBack";
+import LondonAdventurous from "../Cards/Adventurous/LondonAdventurous";
+import LondonTourist from "../Cards/Tourist/LondonTourist";
 
-import ChicagoLaidBack from "../Cards/Chicago/ChicagoLaidBack";
-import ChicagoLaidBackPhoto from "../Cards/Chicago/ChicagoLaidBackPhoto";
-import ChicagoAdventurous from "../Cards/Chicago/ChicagoAdventurous";
-import ChicagoAdventurousPhoto from "../Cards/Chicago/ChicagoAdventurousPhoto";
-import ChicagoTourist from "../Cards/Chicago/ChicagoTourist";
-import ChicagoTouristPhoto from "../Cards/Chicago/ChicagoTourist";
+import ChicagoLaidBack from "../Cards/LaidBack/ChicagoLaidBack";
+import ChicagoAdventurous from "../Cards/Adventurous/ChicagoAdventurous";
+import ChicagoTourist from "../Cards/Tourist/ChicagoTourist";
 
-import LALaidBack from "../Cards/Los Angeles/LosAngelesLaidBack";
-import LALaidBackPhoto from "../Cards/Los Angeles/LosAngelesLaidBackPhoto";
-import LAAdventurous from "../Cards/Los Angeles/LosAngelesAdventurous";
-import LAAdventurousPhoto from "../Cards/Los Angeles/LosAngelesAdventurousPhoto";
-import LATourist from "../Cards/Los Angeles/LosAngelesTourist";
-import LATouristPhoto from "../Cards/Los Angeles/LosAngelesTouristPhoto";
+import LALaidBack from "../Cards/LaidBack/LosAngelesLaidBack";
+import LAAdventurous from "../Cards/Adventurous/LosAngelesAdventurous";
+import LATourist from "../Cards/Tourist/LosAngelesTourist";
 
-import MexLaidBack from "../Cards/Mexico/MexicoLaidBack";
-import MexLaidBackPhoto from "../Cards/Mexico/MexicoLaidBackPhoto";
-import MexAdventurous from "../Cards/Mexico/MexicoAdventurous";
-import MexAdventurousPhoto from "../Cards/Mexico/MexicoAdventurousPhoto";
-import MexTourist from "../Cards/Mexico/MexicoTourist";
-import MexTouristPhoto from "../Cards/Mexico/MexicoTouristPhoto";
+import MexLaidBack from "../Cards/LaidBack/MexicoLaidBack";
+import MexAdventurous from "../Cards/Adventurous/MexicoAdventurous";
+import MexTourist from "../Cards/Tourist/MexicoTourist";
 
-import NYLaidBack from "../Cards/New York/NewYorkLaidBack";
-import NYLaidBackPhoto from "../Cards/New York/NewYorkLaidBackPhoto";
-import NYAdventurous from "../Cards/New York/NewYorkAdventurous";
-import NYAdventurousPhoto from "../Cards/New York/NewYorkAdventurousPhoto";
-import NYTourist from "../Cards/New York/NewYorkTourist";
-import NYTouristPhoto from "../Cards/New York/NewYorkTouristPhoto";
+import NYLaidBack from "../Cards/LaidBack/NewYorkLaidBack";
+import NYAdventurous from "../Cards/Adventurous/NewYorkAdventurous";
+import NYTourist from "../Cards/Tourist/NewYorkTourist";
 
-import ThailandLaidBack from "../Cards/Thailand/ThailandLaidBack";
-import ThailandLaidBackPhoto from "../Cards/Thailand/ThailandLaidBackPhoto";
-import ThailandAdventurous from "../Cards/Thailand/ThailandAdventurous";
-import ThailandAdventurousPhoto from "../Cards/Thailand/ThailandAdventurousPhoto";
-import ThailandTourist from "../Cards/Thailand/ThailandTourist";
-import ThailandTouristPhoto from "../Cards/Thailand/ThailandTouristPhoto";
+import ThailandLaidBack from "../Cards/LaidBack/ThailandLaidBack";
+import ThailandAdventurous from "../Cards/Adventurous/ThailandAdventurous";
+import ThailandTourist from "../Cards/Tourist/ThailandTourist";
 
 const Wrapper = props =>
 
@@ -51,13 +33,8 @@ const Wrapper = props =>
         <i class="fa fa-chevron-circle-down"></i>
     </a>
 
-	<div className="wrapper locationPhoto">
-		<LAAdventurousPhoto/>
-	</div>
-
 	<div className="wrapper">
-		<h5 id="itinerary">Itinerary</h5>
-		<LAAdventurous/>
+		<ThailandTourist/>
 	</div>
 
 	<a className="chevron" href=".locationPhoto">

@@ -2,48 +2,50 @@
 import React, {Component} from 'react';
 import "../cards.css";
 
-class LondonAdventurous extends Component {
+class ThailandLaidBack extends Component {
 
 	state = {
+		picture: "https://raw.githubusercontent.com/ncloyd/LlamaResults/master/images/laidbackthailand.jpg",
 		restaurants: [
-	      {"name": "Archipelago",
-	      "url": "http://www.archipelago-restaurant.co.uk/",
-	      "photo": "https://i.imgur.com/EeGVHD8.jpg"},
-	      {"name": "Bob Bob Ricard",
-	      "url": "https://www.bobbobricard.com/",
-	      "photo": "https://i.imgur.com/enjoHrF.jpg"},
-	      {"name": "Bunga Bunga",
-	      "url": "https://bungabunga-london.com/",
-	      "photo": "https://i.imgur.com/AGAvBgG.png"}
+	      {"name": "Cafe Ice des Arts",
+	      "url": "https://www.tripadvisor.com/Restaurant_Review-g293916-d1849260-Reviews-Cafe_Ice_des_Arts-Bangkok.html",
+	      "photo": "https://i.imgur.com/ZJWPgm5.jpg"},
+	      {"name": "Namsaah Bottling Trust",
+	      "url": "https://www.tripadvisor.com/Restaurant_Review-g293916-d6864201-Reviews-Namsaah_Bottling_Trust-Bangkok.html",
+	      "photo": "https://i.imgur.com/M9Qn8G0.jpg"},
+	      {"name": "Soul Food Mahanakorn",
+	      "url": "https://www.soulfoodmahanakorn.com/",
+	      "photo": "https://i.imgur.com/x0qZkok.jpg"}
 	    ],
 	    landmarks: [
-	      {"name": "Millennium Bridge",
-	      "url": "https://www.thecheesebar.com/",
-	      "photo": "https://i.imgur.com/D6V8S56.png"},
-	      {"name": "Tate Modern",
-	      "url": "http://www.tate.org.uk/visit/tate-modern",
-	      "photo": "https://i.imgur.com/UZewJjV.jpg"},
-	      {"name": "London Dungeon",
-	      "url": "https://www.thedungeons.com/london/en/",
-	      "photo": "https://i.imgur.com/GvvJYp0.jpg"},
+	      {"name": "Patong",
+	      "url": "https://www.tripadvisor.com/Tourism-g297930-Patong_Kathu_Phuket-Vacations.html",
+	      "photo": "https://i.imgur.com/CEDmgrl.jpg"},
+	      {"name": "Railay Beach",
+	      "url": "https://www.tripadvisor.com/Attraction_Review-g1597036-d627649-Reviews-Railay_Beach-Railay_Beach_Krabi_Town_Krabi_Province.html",
+	      "photo": "https://i.imgur.com/nDGxoB9.jpg"},
+	      {"name": "MBK Center",
+	      "url": "https://www.tripadvisor.com/Attraction_Review-g293916-d2172511-Reviews-MBK_Center_Ma_Boon_Khrong_Center-Bangkok.html",
+	      "photo": "https://i.imgur.com/ZvBzt0D.jpg"}
 	    ],
 	    activities: [
-	      {"name": "The Crystal Maze",
-	      "url": "https://the-crystal-maze.com/",
-	      "photo": "https://i.imgur.com/zshBKkM.jpg"},
-	      {"name": "ArcelorMittal Orbit",
-	      "url": "http://arcelormittalorbit.com/",
-	      "photo": "https://i.imgur.com/qWZUKdw.jpg"},
-	      {"name": "Jack the Ripper Tour",
-	      "url": "https://www.jack-the-ripper-tour.com/",
-	      "photo": "https://i.imgur.com/yNjOuln.jpg"}
+	      {"name": "Bangkok Dinner Cruise",
+	      "url": "http://www.bangkok.com/dinner---shows-tours/",
+	      "photo": "https://i.imgur.com/UGnnCbL.jpg"},
+	      {"name": "Bangkok by Night",
+	      "url": "https://www.viator.com/tours/Bangkok/Bangkok-by-Night-Food-Temples-and-Markets-by-Tuk-Tuk/d343-6467BKKNIGHT",
+	      "photo": "https://i.imgur.com/HCSRTon.jpg"},
+	      {"name": "Thai Akha Cooking School",
+	      "url": "https://www.tripadvisor.com/Attraction_Review-g293917-d8614455-Reviews-Thai_Akha_Cooking_School-Chiang_Mai.html",
+	      "photo": "https://i.imgur.com/6TytUgU.jpg"}
 	    ]
 	}
 
 	render() {
 	    return (
 	      <div className="card">
-			<div className="rest">
+	     	<img className="resultPhoto" src={this.state.picture}/>
+			<div className="rest" id="itinerary">
 			    <h1>Restaurants</h1>
 			       	<div className="Grid">
 			      		<div id="rest1">
@@ -121,4 +123,4 @@ class LondonAdventurous extends Component {
   
 }
 
-export default LondonAdventurous;
+export default ThailandLaidBack;

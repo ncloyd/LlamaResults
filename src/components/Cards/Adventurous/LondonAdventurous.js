@@ -2,48 +2,50 @@
 import React, {Component} from 'react';
 import "../cards.css";
 
-class MexTourist extends Component {
+class LondonAdventurous extends Component {
 
 	state = {
+		picture: "https://raw.githubusercontent.com/ncloyd/LlamaResults/master/images/adventurelondon.jpg",
 		restaurants: [
-	      {"name": "Restaurante Nicos",
-	      "url": "https://www.nicosmexico.mx/",
-	      "photo": "https://i.imgur.com/vPzWmJh.jpg"},
-	      {"name": "El Cardenal",
-	      "url": "http://www.restauranteelcardenal.com/",
-	      "photo": "https://i.imgur.com/L2PhdPS.jpg"},
-	      {"name": "Quintonil",
-	      "url": "http://www.quintonil.com/",
-	      "photo": "https://i.imgur.com/HC2muDq.png"}
+	      {"name": "Archipelago",
+	      "url": "http://www.archipelago-restaurant.co.uk/",
+	      "photo": "https://i.imgur.com/EeGVHD8.jpg"},
+	      {"name": "Bob Bob Ricard",
+	      "url": "https://www.bobbobricard.com/",
+	      "photo": "https://i.imgur.com/enjoHrF.jpg"},
+	      {"name": "Bunga Bunga",
+	      "url": "https://bungabunga-london.com/",
+	      "photo": "https://i.imgur.com/AGAvBgG.png"}
 	    ],
 	    landmarks: [
-	      {"name": "Coba Ruins",
-	      "url": "https://www.tripadvisor.com/Attraction_Review-g499447-d152724-Reviews-Coba_Ruins-Coba_Yucatan_Peninsula.html",
-	      "photo": "https://i.imgur.com/TdLpkox.jpg"},
-	      {"name": "Pyramid of the Sun",
-	      "url": "https://www.tripadvisor.com/LocationPhotoDirectLink-g499421-d5010246-i110483405-Pyramid_of_the_Sun-San_Juan_Teotihuacan_Central_Mexico_and_Gulf_Coast.html",
-	      "photo": "https://i.imgur.com/HohB0VJ.jpg"},
-	      {"name": "Plaza Garibaldi",
-	      "url": "https://www.tripadvisor.com/Attraction_Review-g150800-d153024-Reviews-Plaza_Garibaldi-Mexico_City_Central_Mexico_and_Gulf_Coast.html",
-	      "photo": "https://i.imgur.com/VyiJxqM.jpg"}
+	      {"name": "Millennium Bridge",
+	      "url": "https://www.thecheesebar.com/",
+	      "photo": "https://i.imgur.com/D6V8S56.png"},
+	      {"name": "Tate Modern",
+	      "url": "http://www.tate.org.uk/visit/tate-modern",
+	      "photo": "https://i.imgur.com/UZewJjV.jpg"},
+	      {"name": "London Dungeon",
+	      "url": "https://www.thedungeons.com/london/en/",
+	      "photo": "https://i.imgur.com/GvvJYp0.jpg"},
 	    ],
 	    activities: [
-	      {"name": "Dolphin Discovery",
-	      "url": "https://www.dolphindiscovery.com/",
-	      "photo": "https://i.imgur.com/a273Dvk.jpg"},
-	      {"name": "Los Cabos Snorkeling",
-	      "url": "https://www.viator.com/Los-Cabos-tours/Snorkeling/d627-g17-c58",
-	      "photo": "https://i.imgur.com/4FQbYLq.jpg"},
-	      {"name": "Jungle Tour",
-	      "url": "https://aquaworld.com.mx/en/tours/jungle-tour/",
-	      "photo": "https://i.imgur.com/9WaYjPt.jpg"}
+	      {"name": "The Crystal Maze",
+	      "url": "https://the-crystal-maze.com/",
+	      "photo": "https://i.imgur.com/zshBKkM.jpg"},
+	      {"name": "ArcelorMittal Orbit",
+	      "url": "http://arcelormittalorbit.com/",
+	      "photo": "https://i.imgur.com/qWZUKdw.jpg"},
+	      {"name": "Jack the Ripper Tour",
+	      "url": "https://www.jack-the-ripper-tour.com/",
+	      "photo": "https://i.imgur.com/yNjOuln.jpg"}
 	    ]
 	}
 
 	render() {
 	    return (
 	      <div className="card">
-			<div className="rest">
+	     	<img className="resultPhoto" src={this.state.picture}/>
+			<div className="rest" id="itinerary">
 			    <h1>Restaurants</h1>
 			       	<div className="Grid">
 			      		<div id="rest1">
@@ -121,4 +123,4 @@ class MexTourist extends Component {
   
 }
 
-export default MexTourist;
+export default LondonAdventurous;

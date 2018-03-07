@@ -2,48 +2,50 @@
 import React, {Component} from 'react';
 import "../cards.css";
 
-class LATourist extends Component {
+class LondonTourist extends Component {
 
 	state = {
+		picture: "https://raw.githubusercontent.com/ncloyd/LlamaResults/master/images/touristlondon.jpg",
 		restaurants: [
-	      {"name": "Michael's Restaurant",
-	      "url": "http://www.michaelssantamonica.com/",
-	      "photo": "https://i.imgur.com/ugvouPc.jpg"},
-	      {"name": "Cassia",
-	      "url": "https://www.cassiala.com/",
-	      "photo": "https://i.imgur.com/rVIAsoz.jpg"},
-	      {"name": "Rose Cafe",
-	      "url": "http://rosecafevenice.com/",
-	      "photo": "https://i.imgur.com/0cSwmfP.jpg"}
+	      {"name": "The Golden Chippy",
+	      "url": "http://thegoldenchippy.com/",
+	      "photo": "https://i.imgur.com/V81ynUx.jpg"},
+	      {"name": "The Goring Dining Room",
+	      "url": "http://www.thegoring.com/food-drink/the-dining-room/",
+	      "photo": "https://i.imgur.com/20gSOoj.jpg"},
+	      {"name": "The Wilmington, Public House & Dining",
+	      "url": "http://www.wilmingtonclerkenwell.com/",
+	      "photo": "https://i.imgur.com/IXO2ctG.jpg"}
 	    ],
 	    landmarks: [
-	      {"name": "Hollywood Hill",
-	      "url": "https://www.tripadvisor.com/Attraction_Review-g32655-d277005-Reviews-Hollywood_Hills-Los_Angeles_California.html",
-	      "photo": "https://i.imgur.com/QAV0ZTs.jpg"},
-	      {"name": "Hollywood Walk of Fame",
-	      "url": "http://www.walkoffame.com/",
-	      "photo": "https://i.imgur.com/87S6URb.jpg"},
-	      {"name": "Hollywood Boulevard",
-	      "url": "https://www.tripadvisor.com/Attraction_Review-g32655-d103401-Reviews-Hollywood_Boulevard-Los_Angeles_California.html",
-	      "photo": "https://i.imgur.com/luCQdda.jpg"}
+	      {"name": "Big Ben",
+	      "url": "https://www.visitlondon.com/things-to-do/sightseeing/london-attraction/big-ben",
+	      "photo": "https://i.imgur.com/HTjTs33.jpg"},
+	      {"name": "Buckingham Palace",
+	      "url": "https://www.royal.uk/buckingham-palace",
+	      "photo": "https://i.imgur.com/qT18wx6.jpg"},
+	      {"name": "Westminster Abbey",
+	      "url": "http://www.westminster-abbey.org/",
+	      "photo": "https://i.imgur.com/nWlBmR5.jpg"}
 	    ],
 	    activities: [
-	      {"name": "Universal Studios Hollywood",
-	      "url": "https://www.universalstudioshollywood.com/",
-	      "photo": "https://i.imgur.com/9e2yoJM.jpg"},
-	      {"name": "Grauman's Chinese Theatre",
-	      "url": "http://www.tclchinesetheatres.com/",
-	      "photo": "https://i.imgur.com/wTb5TAo.jpg"},
-	      {"name": "TMZ Celebrity Tour",
-	      "url": "https://www.tmztour.com/",
-	      "photo": "https://i.imgur.com/sIjgMrk.jpg"}
+	      {"name": "Sea Life London Aquarium",
+	      "url": "http://www.visitsealife.com/london/",
+	      "photo": "https://i.imgur.com/8HV3VZ5.jpg"},
+	      {"name": "Royal Observatory",
+	      "url": "https://www.rmg.co.uk/royal-observatory",
+	      "photo": "https://i.imgur.com/ENjgo2E.jpg"},
+	      {"name": "Royal Opera House",
+	      "url": "http://www.roh.org.uk/",
+	      "photo": "https://i.imgur.com/308lKHt.jpg"}
 	    ]
 	}
 
 	render() {
 	    return (
-	      <div className="card">
-			<div className="rest">
+	     <div className="card">
+	     	<img className="resultPhoto" src={this.state.picture}/>
+			<div className="rest" id="itinerary">
 			    <h1>Restaurants</h1>
 			       	<div className="Grid">
 			      		<div id="rest1">
@@ -118,7 +120,9 @@ class LATourist extends Component {
 	      </div>
 	    );
 	}
+
+
   
 }
 
-export default LATourist;
+export default LondonTourist;

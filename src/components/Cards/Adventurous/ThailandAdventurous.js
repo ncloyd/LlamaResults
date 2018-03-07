@@ -2,48 +2,50 @@
 import React, {Component} from 'react';
 import "../cards.css";
 
-class NYTourist extends Component {
+class ThailandAdventurous extends Component {
 
 	state = {
+		picture: "https://raw.githubusercontent.com/ncloyd/LlamaResults/master/images/adventurethailand.jpg",
 		restaurants: [
-	      {"name": "ABC Kitchen",
-	      "url": "http://www.abckitchennyc.com/",
-	      "photo": "https://i.imgur.com/lAA4Uw9.jpg"}, 
-	      {"name": "Bamonte's",
-	      "url": "https://www.facebook.com/pages/Bamontes-Restaurant/117607771598030",
-	      "photo": "https://i.imgur.com/dRu2Tmo.jpg"},
-	      {"name": "Balthazar",
-	      "url": "http://balthazarny.com/",
-	      "photo": "https://i.imgur.com/za4IJBZ.jpg"}
+	      {"name": "Vertigo Bar",
+	      "url": "https://www.banyantree.com/en/thailand/bangkok/dining/vertigo",
+	      "photo": "https://i.imgur.com/DxLHZCH.jpg"},
+	      {"name": "The Deck by Arun Residence",
+	      "url": "https://www.tripadvisor.com/Restaurant_Review-g293916-d816295-Reviews-The_Deck-Bangkok.html",
+	      "photo": "https://i.imgur.com/IcRPFlE.jpg"},
+	      {"name": "Sala Rim Naam",
+	      "url": "https://www.tripadvisor.com/Restaurant_Review-g293916-d866280-Reviews-Sala_Rim_Naam_at_Mandarin_Oriental_Bangkok-Bangkok.html",
+	      "photo": "https://i.imgur.com/suLK88c.jpg"}
 	    ],
 	    landmarks: [
-	      {"name": "Statue of Liberty",
-	      "url": "https://www.nps.gov/stli/index.htm",
-	      "photo": "https://i.imgur.com/y1zv92d.jpg"},
-	      {"name": "Empire State Building",
-	      "url": "http://www.esbnyc.com/",
-	      "photo": "https://i.imgur.com/THNubrD.jpg"},
-	      {"name": "Times Square",
-	      "url": "https://www.timessquarenyc.org/",
-	      "photo": "https://i.imgur.com/rFgOivS.jpg"}
+	      {"name": "Phi Phi Islands",
+	      "url": "http://www.phuket.com/island/phiphi.htm",
+	      "photo": "https://i.imgur.com/B39OW4B.jpg"},
+	      {"name": "Wat Chedi Luang",
+	      "url": "https://www.tripadvisor.com/Attraction_Review-g293917-d447585-Reviews-Wat_Chedi_Luang_Varavihara-Chiang_Mai.html",
+	      "photo": "https://i.imgur.com/rpPG4Tq.jpg"},
+	      {"name": "Elephant Nature Park",
+	      "url": "https://www.elephantnaturepark.org/",
+	      "photo": "https://i.imgur.com/BN3whf0.jpg"}
 	    ],
 	    activities: [
-	      {"name": "Broadway Theatre",
-	      "url": "https://www.broadway.com/",
-	      "photo": "https://i.imgur.com/wbAstY5.jpg"},
-	      {"name": "Metropolitan Museum of Art",
-	      "url": "https://www.metmuseum.org/",
-	      "photo": "https://i.imgur.com/9qDEBy6.jpg"},
-	      {"name": "Madison Square Garden",
-	      "url": "https://www.msg.com/madison-square-garden",
-	      "photo": "https://i.imgur.com/fWq8noy.jpg"}
+	      {"name": "Safari World",
+	      "url": "https://www.tripadvisor.com/Attraction_Review-g293916-d455818-Reviews-Safari_World-Bangkok.html",
+	      "photo": "https://i.imgur.com/yTCLtAu.jpg"},
+	      {"name": "Burma Railway",
+	      "url": "https://www.tripadvisor.com.au/Attraction_Review-g297924-d1731130-Reviews-Thai_Burma_Railway_Death_Railway-Kanchanaburi_Kanchanaburi_Province.html",
+	      "photo": "https://i.imgur.com/K9DHNCB.jpg"},
+	      {"name": "Jungle Safari",
+	      "url": "https://www.phukettoursdirect.com/jungle-safari-tours.html",
+	      "photo": "https://i.imgur.com/0RCLDDr.jpg"}
 	    ]
 	}
 
 	render() {
 	    return (
 	      <div className="card">
-			<div className="rest">
+	     	<img className="resultPhoto" src={this.state.picture}/>
+			<div className="rest" id="itinerary">
 			    <h1>Restaurants</h1>
 			       	<div className="Grid">
 			      		<div id="rest1">
@@ -121,4 +123,4 @@ class NYTourist extends Component {
   
 }
 
-export default NYTourist;
+export default ThailandAdventurous;

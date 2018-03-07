@@ -2,48 +2,50 @@
 import React, {Component} from 'react';
 import "../cards.css";
 
-class NYAdventurous extends Component {
+class MexAdventurous extends Component {
 
 	state = {
+		picture: "https://raw.githubusercontent.com/ncloyd/LlamaResults/master/images/touristmexico.jpg",
 		restaurants: [
-	      {"name": "Burp Castle",
-	      "url": "https://burpcastlenyc.wordpress.com/",
-	      "photo": "https://i.imgur.com/GWK579c.jpg"},
-	      {"name": "Apothéke Cocktail Bar",
-	      "url": "https://www.apothekenyc.com/",
-	      "photo": "https://i.imgur.com/JBeHCdu.jpg"},
-	      {"name": "Fabbrica",
-	      "url": "http://fabbricanyc.com/",
-	      "photo": "https://i.imgur.com/j82AeSy.jpg"}
+	      {"name": "Yuban",
+	      "url": "yuban.mx",
+	      "photo": "https://i.imgur.com/AoeVXnL.jpg"},
+	      {"name": "Los Danzantes",
+	      "url": "losdanzantes.com",
+	      "photo": "https://i.imgur.com/i6awBTD.jpg"},
+	      {"name": "Pizza del Perro Negro",
+	      "url": "pizzadelperronegro.com",
+	      "photo": "https://i.imgur.com/ZNKAkJ8.jpg"}
 	    ],
 	    landmarks: [
-	      {"name": "Madame Tussauds",
-	      "url": "https://www.madametussauds.com/new-york/en/",
-	      "photo": "https://i.imgur.com/DZj6YBy.jpg"},
-	      {"name": "Top of The Rock",
-	      "url": "https://www.topoftherocknyc.com/",
-	      "photo": "https://i.imgur.com/3ljkheP.jpg"},
-	      {"name": "Chinatown",
-	      "url": "https://www.tripadvisor.com/Attraction_Review-g60763-d181825-Reviews-Chinatown-New_York_City_New_York.html",
-	      "photo": "https://i.imgur.com/Qk2bon3.jpg"}
+	      {"name": "Xel-Ha Park",
+	      "url": "http://www.xelha.com/",
+	      "photo": "https://i.imgur.com/PdgM1o8.jpg"},
+	      {"name": "Arch of Cabo San Lucas",
+	      "url": "https://www.tripadvisor.com/Attraction_Review-g152515-d152880-Reviews-El_Arco_de_Cabo_San_Lucas_Lands_End-Cabo_San_Lucas_Los_Cabos_Baja_California.html",
+	      "photo": "https://i.imgur.com/fCioiz4.jpg"},
+	      {"name": "Popocatépetl",
+	      "url": "https://www.tripadvisor.com/Attraction_Review-g150796-d152737-Reviews-Popocatepetl-Central_Mexico_and_Gulf_Coast.html",
+	      "photo": "https://i.imgur.com/1rjF5l8.jpg"}
 	    ],
 	    activities: [
-	      {"name": "Alley Pond Park Adventure Course",
-	      "url": "https://www.nycgovparks.org/programs/rangers/adventure-course",
-	      "photo": "https://i.imgur.com/VMup4re.jpg"},
-	      {"name": "Big Apple Helicopter Tour",
-	      "url": "https://www.libertyhelicopter.com/store/tours/the-big-apple-approx-12-15-minutes.html",
-	      "photo": "https://i.imgur.com/Q3pJ7tH.jpg"},
-	      {"name": "Tribeca Sailing",
-	      "url": "http://www.tribecasailing.com/",
-	      "photo": "https://i.imgur.com/LVGDNS7.jpg"}
+	      {"name": "Sayulita Surfing",
+	      "url": "https://www.sayulitalife.com/surf",
+	      "photo": "https://i.imgur.com/cZjw2MF.jpg"},
+	      {"name": "Rock Climbing in El Potrero Chico",
+	      "url": "http://potrerochico.org/",
+	      "photo": "https://i.imgur.com/QQpDI3N.jpg"},
+	      {"name": "Copper Canyon Cycling",
+	      "url": "http://traveltips.usatoday.com/copper-canyon-cycling-19279.html",
+	      "photo": "https://i.imgur.com/MuOi4T3.jpg"}
 	    ]
 	}
 
 	render() {
 	    return (
 	      <div className="card">
-			<div className="rest">
+	     	<img className="resultPhoto" src={this.state.picture}/>
+			<div className="rest" id="itinerary">
 			    <h1>Restaurants</h1>
 			       	<div className="Grid">
 			      		<div id="rest1">
@@ -121,4 +123,4 @@ class NYAdventurous extends Component {
   
 }
 
-export default NYAdventurous;
+export default MexAdventurous;

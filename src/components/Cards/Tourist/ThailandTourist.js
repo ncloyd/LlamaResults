@@ -2,48 +2,50 @@
 import React, {Component} from 'react';
 import "../cards.css";
 
-class LondonLaidBack extends Component {
+class ThailandTourist extends Component {
 
 	state = {
+		picture: "https://raw.githubusercontent.com/ncloyd/LlamaResults/master/images/touristthailand.jpg",
 		restaurants: [
-	      {"name": "BAO Soho",
-	      "url": "https://baolondon.com/",
-	      "photo": "https://i.imgur.com/APN4Mfl.jpg"}, 
-	      {"name": "Barrafina",
-	      "url": "http://www.barrafina.co.uk/",
-	      "photo": "https://i.imgur.com/9cxkba7.jpg"}, 
-	      {"name": "Dishoom Shoreditch",
-	      "url": "http://www.dishoom.com/shoreditch/",
-	      "photo": "https://i.imgur.com/uJT77v0.jpg"}
+	      {"name": "ABC Kitchen",
+	      "url": "http://www.abckitchennyc.com/",
+	      "photo": "https://i.imgur.com/lAA4Uw9.jpg"}, 
+	      {"name": "Bamonte's",
+	      "url": "https://www.facebook.com/pages/Bamontes-Restaurant/117607771598030",
+	      "photo": "https://i.imgur.com/dRu2Tmo.jpg"},
+	      {"name": "Balthazar",
+	      "url": "http://balthazarny.com/",
+	      "photo": "https://i.imgur.com/za4IJBZ.jpg"}
 	    ],
 	    landmarks: [
-	      {"name": "The Shard",
-	      "url": "https://www.the-shard.com/",
-	      "photo": "https://i.imgur.com/EKeGkuz.jpg"},
-	      {"name": "Tower of London",
-	      "url": "https://www.hrp.org.uk/tower-of-london/",
-	      "photo": "https://i.imgur.com/xTDxXTJ.jpg"},
-	      {"name": "Trafalgar Square",
-	      "url": "https://www.london.gov.uk/about-us/our-building-and-squares/trafalgar-square",
-	      "photo": "https://i.imgur.com/ka7WCGl.jpg"}
+	      {"name": "Statue of Liberty",
+	      "url": "https://www.nps.gov/stli/index.htm",
+	      "photo": "https://i.imgur.com/y1zv92d.jpg"},
+	      {"name": "Empire State Building",
+	      "url": "http://www.esbnyc.com/",
+	      "photo": "https://i.imgur.com/THNubrD.jpg"},
+	      {"name": "Times Square",
+	      "url": "https://www.timessquarenyc.org/",
+	      "photo": "https://i.imgur.com/rFgOivS.jpg"}
 	    ],
 	    activities: [
-	      {"name": "Grosvenor Casino St Giles",
-	      "url": "https://www.grosvenorcasinos.com/local-casinos/st-giles",
-	      "photo": "https://i.imgur.com/x1eAGSU.jpg"},
-	      {"name": "London Eye",
-	      "url": "https://www.londoneye.com/",
-	      "photo": "https://i.imgur.com/LhxWX2i.jpg"},
-	      {"name": "Brick Lane Music Hall",
-	      "url": "https://www.bricklanemusichall.co.uk/",
-	      "photo": "https://i.imgur.com/HzBro1N.jpg"}
+	      {"name": "Broadway Theatre",
+	      "url": "https://www.broadway.com/",
+	      "photo": "https://i.imgur.com/wbAstY5.jpg"},
+	      {"name": "Metropolitan Museum of Art",
+	      "url": "https://www.metmuseum.org/",
+	      "photo": "https://i.imgur.com/9qDEBy6.jpg"},
+	      {"name": "Madison Square Garden",
+	      "url": "https://www.msg.com/madison-square-garden",
+	      "photo": "https://i.imgur.com/fWq8noy.jpg"}
 	    ]
 	}
 
 	render() {
 	    return (
-	    <div className="card">
-			<div className="rest">
+	      <div className="card">
+	     	<img className="resultPhoto" src={this.state.picture}/>
+			<div className="rest" id="itinerary">
 			    <h1>Restaurants</h1>
 			       	<div className="Grid">
 			      		<div id="rest1">
@@ -118,9 +120,7 @@ class LondonLaidBack extends Component {
 	      </div>
 	    );
 	}
-
-
   
 }
 
-export default LondonLaidBack;
+export default ThailandTourist;

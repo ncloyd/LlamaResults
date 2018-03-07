@@ -2,48 +2,50 @@
 import React, {Component} from 'react';
 import "../cards.css";
 
-class ChicagoTourist extends Component {
+class ChicagoAdventurous extends Component {
 
 	state = {
+		picture: "https://raw.githubusercontent.com/ncloyd/LlamaResults/master/images/adventurechi.jpg",
 		restaurants: [
-	      {"name": "Pequod's Pizza",
-	      "url": "https://pequodspizza.com/",
-	      "photo": "https://i.imgur.com/59gOf4M.jpg"},
-	      {"name": "Lou Mitchell's Restaurant",
-	      "url": "http://www.loumitchells.com/",
-	      "photo": "https://i.imgur.com/bQqnyHZ.jpg"},
-	      {"name": "The Capital Grille",
-	      "url": "https://www.thecapitalgrille.com/locations/il/chicago/chicago-downtown/8008",
-	      "photo": "https://i.imgur.com/mmQ9Dm8.jpg"}
+	      {"name": "Archipelago",
+	      "url": "http://www.archipelago-restaurant.co.uk/",
+	      "photo": "https://i.imgur.com/EeGVHD8.jpg"},
+	      {"name": "Bob Bob Ricard",
+	      "url": "https://www.bobbobricard.com/",
+	      "photo": "https://i.imgur.com/enjoHrF.jpg"},
+	      {"name": "Bunga Bunga",
+	      "url": "https://bungabunga-london.com/",
+	      "photo": "https://i.imgur.com/AGAvBgG.png"}
 	    ],
 	    landmarks: [
-	      {"name": "Navy Pier",
-	      "url": "https://navypier.org/",
-	      "photo": "https://i.imgur.com/CD44qPT.jpg"},
-	      {"name": "Willis Tower",
-	      "url": "http://www.willistower.com/",
-	      "photo": "https://i.imgur.com/F40ecE9.jpg"},
-	      {"name": "Chicago Cultural Center",
-	      "url": "https://www.cityofchicago.org/city/en/depts/dca/supp_info/chicago_culturalcenter.html/",
-	      "photo": "https://i.imgur.com/P5gvRzo.jpg"}
+	      {"name": "Millennium Bridge",
+	      "url": "https://www.thecheesebar.com/",
+	      "photo": "https://i.imgur.com/D6V8S56.png"},
+	      {"name": "Tate Modern",
+	      "url": "http://www.tate.org.uk/visit/tate-modern",
+	      "photo": "https://i.imgur.com/UZewJjV.jpg"},
+	      {"name": "London Dungeon",
+	      "url": "https://www.thedungeons.com/london/en/",
+	      "photo": "https://i.imgur.com/GvvJYp0.jpg"},
 	    ],
 	    activities: [
-	      {"name": "Magnificent Mile",
-	      "url": "https://themagnificentmile.com/",
-	      "photo": "https://i.imgur.com/2sTYjxu.jpg"},
-	      {"name": "Art Institute of Chicago",
-	      "url": "http://www.artic.edu/",
-	      "photo": "https://i.imgur.com/Z7P69XQ.jpg"},
-	      {"name": "Al Capone Gangster Tour",
-	      "url": "https://chicagocrimetours.com/",
-	      "photo": "https://i.imgur.com/9lIl7D0.jpg"}
+	      {"name": "The Crystal Maze",
+	      "url": "https://the-crystal-maze.com/",
+	      "photo": "https://i.imgur.com/zshBKkM.jpg"},
+	      {"name": "ArcelorMittal Orbit",
+	      "url": "http://arcelormittalorbit.com/",
+	      "photo": "https://i.imgur.com/qWZUKdw.jpg"},
+	      {"name": "Jack the Ripper Tour",
+	      "url": "https://www.jack-the-ripper-tour.com/",
+	      "photo": "https://i.imgur.com/yNjOuln.jpg"}
 	    ]
 	}
 
 	render() {
 	    return (
-	     <div className="card">
-			<div className="rest">
+	      <div className="card">
+	     	<img className="resultPhoto" src={this.state.picture}/>
+			<div className="rest" id="itinerary">
 			    <h1>Restaurants</h1>
 			       	<div className="Grid">
 			      		<div id="rest1">
@@ -118,9 +120,7 @@ class ChicagoTourist extends Component {
 	      </div>
 	    );
 	}
-
-
   
 }
 
-export default ChicagoTourist;
+export default ChicagoAdventurous;

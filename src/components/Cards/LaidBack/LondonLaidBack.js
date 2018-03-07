@@ -2,48 +2,50 @@
 import React, {Component} from 'react';
 import "../cards.css";
 
-class ThailandLaidBack extends Component {
+class LondonLaidBack extends Component {
 
 	state = {
+		picture: "https://raw.githubusercontent.com/ncloyd/LlamaResults/master/images/touristlondon.jpg",
 		restaurants: [
-	      {"name": "Cafe Ice des Arts",
-	      "url": "https://www.tripadvisor.com/Restaurant_Review-g293916-d1849260-Reviews-Cafe_Ice_des_Arts-Bangkok.html",
-	      "photo": "https://i.imgur.com/ZJWPgm5.jpg"},
-	      {"name": "Namsaah Bottling Trust",
-	      "url": "https://www.tripadvisor.com/Restaurant_Review-g293916-d6864201-Reviews-Namsaah_Bottling_Trust-Bangkok.html",
-	      "photo": "https://i.imgur.com/M9Qn8G0.jpg"},
-	      {"name": "Soul Food Mahanakorn",
-	      "url": "https://www.soulfoodmahanakorn.com/",
-	      "photo": "https://i.imgur.com/x0qZkok.jpg"}
+	      {"name": "BAO Soho",
+	      "url": "https://baolondon.com/",
+	      "photo": "https://i.imgur.com/APN4Mfl.jpg"}, 
+	      {"name": "Barrafina",
+	      "url": "http://www.barrafina.co.uk/",
+	      "photo": "https://i.imgur.com/9cxkba7.jpg"}, 
+	      {"name": "Dishoom Shoreditch",
+	      "url": "http://www.dishoom.com/shoreditch/",
+	      "photo": "https://i.imgur.com/uJT77v0.jpg"}
 	    ],
 	    landmarks: [
-	      {"name": "Patong",
-	      "url": "https://www.tripadvisor.com/Tourism-g297930-Patong_Kathu_Phuket-Vacations.html",
-	      "photo": "https://i.imgur.com/CEDmgrl.jpg"},
-	      {"name": "Railay Beach",
-	      "url": "https://www.tripadvisor.com/Attraction_Review-g1597036-d627649-Reviews-Railay_Beach-Railay_Beach_Krabi_Town_Krabi_Province.html",
-	      "photo": "https://i.imgur.com/nDGxoB9.jpg"},
-	      {"name": "MBK Center",
-	      "url": "https://www.tripadvisor.com/Attraction_Review-g293916-d2172511-Reviews-MBK_Center_Ma_Boon_Khrong_Center-Bangkok.html",
-	      "photo": "https://i.imgur.com/ZvBzt0D.jpg"}
+	      {"name": "The Shard",
+	      "url": "https://www.the-shard.com/",
+	      "photo": "https://i.imgur.com/EKeGkuz.jpg"},
+	      {"name": "Tower of London",
+	      "url": "https://www.hrp.org.uk/tower-of-london/",
+	      "photo": "https://i.imgur.com/xTDxXTJ.jpg"},
+	      {"name": "Trafalgar Square",
+	      "url": "https://www.london.gov.uk/about-us/our-building-and-squares/trafalgar-square",
+	      "photo": "https://i.imgur.com/ka7WCGl.jpg"}
 	    ],
 	    activities: [
-	      {"name": "Bangkok Dinner Cruise",
-	      "url": "http://www.bangkok.com/dinner---shows-tours/",
-	      "photo": "https://i.imgur.com/UGnnCbL.jpg"},
-	      {"name": "Bangkok by Night",
-	      "url": "https://www.viator.com/tours/Bangkok/Bangkok-by-Night-Food-Temples-and-Markets-by-Tuk-Tuk/d343-6467BKKNIGHT",
-	      "photo": "https://i.imgur.com/HCSRTon.jpg"},
-	      {"name": "Thai Akha Cooking School",
-	      "url": "https://www.tripadvisor.com/Attraction_Review-g293917-d8614455-Reviews-Thai_Akha_Cooking_School-Chiang_Mai.html",
-	      "photo": "https://i.imgur.com/6TytUgU.jpg"}
+	      {"name": "Grosvenor Casino St Giles",
+	      "url": "https://www.grosvenorcasinos.com/local-casinos/st-giles",
+	      "photo": "https://i.imgur.com/x1eAGSU.jpg"},
+	      {"name": "London Eye",
+	      "url": "https://www.londoneye.com/",
+	      "photo": "https://i.imgur.com/LhxWX2i.jpg"},
+	      {"name": "Brick Lane Music Hall",
+	      "url": "https://www.bricklanemusichall.co.uk/",
+	      "photo": "https://i.imgur.com/HzBro1N.jpg"}
 	    ]
 	}
 
 	render() {
 	    return (
-	      <div className="card">
-			<div className="rest">
+	    <div className="card">
+	     	<img className="resultPhoto" src={this.state.picture}/>
+			<div className="rest" id="itinerary">
 			    <h1>Restaurants</h1>
 			       	<div className="Grid">
 			      		<div id="rest1">
@@ -118,7 +120,9 @@ class ThailandLaidBack extends Component {
 	      </div>
 	    );
 	}
+
+
   
 }
 
-export default ThailandLaidBack;
+export default LondonLaidBack;

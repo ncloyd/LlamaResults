@@ -2,48 +2,50 @@
 import React, {Component} from 'react';
 import "../cards.css";
 
-class NYLaidBack extends Component {
+class NYAdventurous extends Component {
 
 	state = {
+		picture: "https://raw.githubusercontent.com/ncloyd/LlamaResults/master/images/adventureny.jpg",
 		restaurants: [
-	      {"name": "Westville Chelsea",
-	      "url": "http://westvillenyc.com/menu/",
-	      "photo": "https://i.imgur.com/WAZZsu9.jpg"},
-	      {"name": "Cotenna",
-	      "url": "http://places.singleplatform.com/cotenna/menu?ref=google",
-	      "photo": "https://i.imgur.com/peL1YTI.jpg"},
-	      {"name": "Shuka",
-	      "url": "http://places.singleplatform.com/shuka/menu?ref=google",
-	      "photo": "https://i.imgur.com/Ck9MMoR.jpg"}
+	      {"name": "Burp Castle",
+	      "url": "https://burpcastlenyc.wordpress.com/",
+	      "photo": "https://i.imgur.com/GWK579c.jpg"},
+	      {"name": "Apothéke Cocktail Bar",
+	      "url": "https://www.apothekenyc.com/",
+	      "photo": "https://i.imgur.com/JBeHCdu.jpg"},
+	      {"name": "Fabbrica",
+	      "url": "http://fabbricanyc.com/",
+	      "photo": "https://i.imgur.com/j82AeSy.jpg"}
 	    ],
 	    landmarks: [
-	      {"name": "Rockefeller Center",
-	      "url": "https://www.rockefellercenter.com/",
-	      "photo": "https://i.imgur.com/7kUj5qm.jpg"},
-	      {"name": "Central Park",
-	      "url": "http://www.centralparknyc.org/",
-	      "photo": "https://i.imgur.com/UMJzg3L.jpg"},
-	      {"name": "Bronx Zoo",
-	      "url": "https://bronxzoo.com/",
-	      "photo": "https://i.imgur.com/GfqRHzy.jpg"}
+	      {"name": "Madame Tussauds",
+	      "url": "https://www.madametussauds.com/new-york/en/",
+	      "photo": "https://i.imgur.com/DZj6YBy.jpg"},
+	      {"name": "Top of The Rock",
+	      "url": "https://www.topoftherocknyc.com/",
+	      "photo": "https://i.imgur.com/3ljkheP.jpg"},
+	      {"name": "Chinatown",
+	      "url": "https://www.tripadvisor.com/Attraction_Review-g60763-d181825-Reviews-Chinatown-New_York_City_New_York.html",
+	      "photo": "https://i.imgur.com/Qk2bon3.jpg"}
 	    ],
 	    activities: [
-	      {"name": "Chelsea Market",
-	      "url": "http://chelseamarket.com/",
-	      "photo": "https://i.imgur.com/fSOf7fX.jpg"},
-	      {"name": "Comedy Cellar",
-	      "url": "http://www.comedycellar.com/",
-	      "photo": "https://i.imgur.com/PfHXcn5.jpg"},
-	      {"name": "Fifth Avenue Shopping",
-	      "url": "http://visit5thavenue.com/",
-	      "photo": "https://i.imgur.com/1OzX0Uk.jpg"}
+	      {"name": "Alley Pond Park Adventure Course",
+	      "url": "https://www.nycgovparks.org/programs/rangers/adventure-course",
+	      "photo": "https://i.imgur.com/VMup4re.jpg"},
+	      {"name": "Big Apple Helicopter Tour",
+	      "url": "https://www.libertyhelicopter.com/store/tours/the-big-apple-approx-12-15-minutes.html",
+	      "photo": "https://i.imgur.com/Q3pJ7tH.jpg"},
+	      {"name": "Tribeca Sailing",
+	      "url": "http://www.tribecasailing.com/",
+	      "photo": "https://i.imgur.com/LVGDNS7.jpg"}
 	    ]
 	}
 
 	render() {
 	    return (
 	      <div className="card">
-			<div className="rest">
+	     	<img className="resultPhoto" src={this.state.picture}/>
+			<div className="rest" id="itinerary">
 			    <h1>Restaurants</h1>
 			       	<div className="Grid">
 			      		<div id="rest1">
@@ -121,4 +123,4 @@ class NYLaidBack extends Component {
   
 }
 
-export default NYLaidBack;
+export default NYAdventurous;

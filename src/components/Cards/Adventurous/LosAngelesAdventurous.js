@@ -2,48 +2,50 @@
 import React, {Component} from 'react';
 import "../cards.css";
 
-class LondonTourist extends Component {
+class LAAdventurous extends Component {
 
 	state = {
+		picture: "https://raw.githubusercontent.com/ncloyd/LlamaResults/master/images/adventurela.jpg",
 		restaurants: [
-	      {"name": "The Golden Chippy",
-	      "url": "http://thegoldenchippy.com/",
-	      "photo": "https://i.imgur.com/V81ynUx.jpg"},
-	      {"name": "The Goring Dining Room",
-	      "url": "http://www.thegoring.com/food-drink/the-dining-room/",
-	      "photo": "https://i.imgur.com/20gSOoj.jpg"},
-	      {"name": "The Wilmington, Public House & Dining",
-	      "url": "http://www.wilmingtonclerkenwell.com/",
-	      "photo": "https://i.imgur.com/IXO2ctG.jpg"}
+	      {"name": "Wurstküche",
+	      "url": "https://www.wurstkuche.com/",
+	      "photo": "https://i.imgur.com/qHcgorI.jpg"},
+	      {"name": "Sushi Zo",
+	      "url": "http://sushizo.us/",
+	      "photo": "https://i.imgur.com/ACH9Xuc.jpg"},
+	      {"name": "Peddler's Creamery",
+	      "url": "http://www.peddlerscreamery.com/",
+	      "photo": "https://i.imgur.com/U1HwHdS.jpg"}
 	    ],
 	    landmarks: [
-	      {"name": "Big Ben",
-	      "url": "https://www.visitlondon.com/things-to-do/sightseeing/london-attraction/big-ben",
-	      "photo": "https://i.imgur.com/HTjTs33.jpg"},
-	      {"name": "Buckingham Palace",
-	      "url": "https://www.royal.uk/buckingham-palace",
-	      "photo": "https://i.imgur.com/qT18wx6.jpg"},
-	      {"name": "Westminster Abbey",
-	      "url": "http://www.westminster-abbey.org/",
-	      "photo": "https://i.imgur.com/nWlBmR5.jpg"}
+	      {"name": "Griffith Observatory",
+	      "url": "http://griffithobservatory.org/",
+	      "photo": "https://i.imgur.com/7PZe3jR.jpg"},
+	      {"name": "Santa Monica Pier",
+	      "url": "http://santamonicapier.org/",
+	      "photo": "https://i.imgur.com/M8T3TJS.jpg"},
+	      {"name": "Chateau Marmont",
+	      "url": "http://www.chateaumarmont.com/",
+	      "photo": "https://i.imgur.com/LNaQxv4.jpg"}
 	    ],
 	    activities: [
-	      {"name": "Sea Life London Aquarium",
-	      "url": "http://www.visitsealife.com/london/",
-	      "photo": "https://i.imgur.com/8HV3VZ5.jpg"},
-	      {"name": "Royal Observatory",
-	      "url": "https://www.rmg.co.uk/royal-observatory",
-	      "photo": "https://i.imgur.com/ENjgo2E.jpg"},
-	      {"name": "Royal Opera House",
-	      "url": "http://www.roh.org.uk/",
-	      "photo": "https://i.imgur.com/308lKHt.jpg"}
+	      {"name": "LA River Kayak Safari",
+	      "url": "http://lariverkayaksafari.org/",
+	      "photo": "https://i.imgur.com/Wbg4Hkj.jpg"},
+	      {"name": "Enjoy The Mountain",
+	      "url": "https://www.enjoythemountain.com/",
+	      "photo": "https://i.imgur.com/PerhEaf.jpg"},
+	      {"name": "Maze Rooms",
+	      "url": "https://la.mazerooms.com/",
+	      "photo": "https://i.imgur.com/cPwtHan.jpg"}
 	    ]
 	}
 
 	render() {
 	    return (
-	     <div className="card">
-			<div className="rest">
+	      <div className="card">
+	     	<img className="resultPhoto" src={this.state.picture}/>
+			<div className="rest" id="itinerary">
 			    <h1>Restaurants</h1>
 			       	<div className="Grid">
 			      		<div id="rest1">
@@ -118,9 +120,7 @@ class LondonTourist extends Component {
 	      </div>
 	    );
 	}
-
-
   
 }
 
-export default LondonTourist;
+export default LAAdventurous;

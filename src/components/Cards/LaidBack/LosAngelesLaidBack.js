@@ -2,48 +2,50 @@
 import React, {Component} from 'react';
 import "../cards.css";
 
-class ChicagoLaidBack extends Component {
+class LALaidBack extends Component {
 
 	state = {
+		picture: "https://raw.githubusercontent.com/ncloyd/LlamaResults/master/images/laidbackla.jpg",
 		restaurants: [
-	      {"name": "Crosby's Kitchen",
-	      "url": "http://www.crosbyschicago.com/",
-	      "photo": "https://i.imgur.com/BxO6tsI.jpg"},
-	      {"name": "Mi Tocaya Antojería",
-	      "url": "http://www.mitocaya.com/",
-	      "photo": "https://i.imgur.com/UzGxhRA.jpg"},
-	      {"name": "Doc B's Fresh Kitchen",
-	      "url": "https://docbsfreshkitchen.com/",
-	      "photo": "https://i.imgur.com/kwjK6Rr.jpg"}
+	      {"name": "République",
+	      "url": "http://republiquela.com/menus/",
+	      "photo": "https://i.imgur.com/kahQnX5.jpg"},
+	      {"name": "Baroo",
+	      "url": "http://baroola.strikingly.com/",
+	      "photo": "https://i.imgur.com/MIcmQxA.jpg"},
+	      {"name": "Colori Kitchen",
+	      "url": "http://colorikitchen.com/colori_kitchen_dinner.html",
+	      "photo": "https://i.imgur.com/L0e6HcJ.jpg"}
 	    ],
 	    landmarks: [
-	      {"name": "Chicago Riverwalk",
-	      "url": "https://www.chicagoriverwalk.us/",
-	      "photo": "https://i.imgur.com/jCnF7CA.jpg"},
-	      {"name": "Millennium Park",
-	      "url": "https://www.cityofchicago.org/city/en/depts/dca/supp_info/millennium_park.html",
-	      "photo": "https://i.imgur.com/RAn0Rr8.jpg"},
-	      {"name": "Museum Campus",
-	      "url": "https://www.choosechicago.com/things-to-do/museums-and-arts/museums-galleries-and-exhibitions/chicago-museum-campus-101/",
-	      "photo": "https://i.imgur.com/GJFUqkA.jpg"}
+	      {"name": "Venice Beach Boardwalk",
+	      "url": "http://www.venicebeach.com/the-venice-beach-boardwalk/",
+	      "photo": "https://i.imgur.com/SY6wKjj.jpg"},
+	      {"name": "Bradbury Building",
+	      "url": "https://www.tripadvisor.com/Attraction_Review-g32655-d127352-Reviews-Bradbury_Building-Los_Angeles_California.html",
+	      "photo": "https://i.imgur.com/NSVGWNr.jpg"},
+	      {"name": "Capitol Records Building",
+	      "url": "https://www.tripadvisor.com/Attraction_Review-g32655-d156472-Reviews-Capitol_Records_Building-Los_Angeles_California.html",
+	      "photo": "https://i.imgur.com/wdTWwHX.jpg"}
 	    ],
 	    activities: [
-	      {"name": "Wrigley Field",
-	      "url": "http://chicago.cubs.mlb.com/chc/ballpark/",
-	      "photo": "https://i.imgur.com/tlsfUdh.jpg"},
-	      {"name": "Adler Planetarium",
-	      "url": "https://www.adlerplanetarium.org/",
-	      "photo": "https://i.imgur.com/ZYrgWV6.jpg"},
-	      {"name": "Shedd Aquarium",
-	      "url": "https://www.sheddaquarium.org/",
-	      "photo": "https://i.imgur.com/f7aIGzv.jpg"}
+	      {"name": "Walt Disney Concert Hall",
+	      "url": "https://www.laphil.com/concerts-and-events/tickets-and-packages/",
+	      "photo": "https://i.imgur.com/NSVGWNr.jpg"},
+	      {"name": "Staples Center",
+	      "url": "https://www.staplescenter.com/",
+	      "photo": "https://i.imgur.com/MqoSvOT.jpg"},
+	      {"name": "Dearly Departed Tours",
+	      "url": "http://dearlydepartedtours.com/",
+	      "photo": "https://i.imgur.com/EEOHgJF.jpg"}
 	    ]
 	}
 
 	render() {
 	    return (
-	    <div className="card">
-			<div className="rest">
+	      <div className="card">
+	     	<img className="resultPhoto" src={this.state.picture}/>
+			<div className="rest" id="itinerary">
 			    <h1>Restaurants</h1>
 			       	<div className="Grid">
 			      		<div id="rest1">
@@ -118,9 +120,7 @@ class ChicagoLaidBack extends Component {
 	      </div>
 	    );
 	}
-
-
   
 }
 
-export default ChicagoLaidBack;
+export default LALaidBack;

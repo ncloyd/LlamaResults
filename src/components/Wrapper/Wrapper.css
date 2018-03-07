@@ -42,7 +42,8 @@ button h3 {
 .resultPhoto {
   width: 100%;
   border: 1px solid white;
-  border-radius: 3px; 
+  border-radius: 3px;
+  margin-bottom: 10px;
 }
 
 .fa {

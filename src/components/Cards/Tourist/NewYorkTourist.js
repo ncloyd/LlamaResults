@@ -2,9 +2,10 @@
 import React, {Component} from 'react';
 import "../cards.css";
 
-class ThailandTourist extends Component {
+class NYTourist extends Component {
 
 	state = {
+		picture: "https://raw.githubusercontent.com/ncloyd/LlamaResults/master/images/touristny.jpg",
 		restaurants: [
 	      {"name": "ABC Kitchen",
 	      "url": "http://www.abckitchennyc.com/",
@@ -43,7 +44,8 @@ class ThailandTourist extends Component {
 	render() {
 	    return (
 	      <div className="card">
-			<div className="rest">
+	     	<img className="resultPhoto" src={this.state.picture}/>
+			<div className="rest" id="itinerary">
 			    <h1>Restaurants</h1>
 			       	<div className="Grid">
 			      		<div id="rest1">
@@ -121,4 +123,4 @@ class ThailandTourist extends Component {
   
 }
 
-export default ThailandTourist;
+export default NYTourist;

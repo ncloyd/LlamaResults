@@ -2,48 +2,50 @@
 import React, {Component} from 'react';
 import "../cards.css";
 
-class MexLaidBack extends Component {
+class NYLaidBack extends Component {
 
 	state = {
+		picture: "https://raw.githubusercontent.com/ncloyd/LlamaResults/master/images/laidbackny.jpg",
 		restaurants: [
-	      {"name": "Azul",
-	      "url": "http://azul.rest/",
-	      "photo": "https://i.imgur.com/viwWTYL.jpg"},
-	      {"name": "Lardo",
-	      "url": "http://www.lardo.mx/",
-	      "photo": "https://i.imgur.com/JCVn4na.jpg"},
-	      {"name": "La Guapachosa",
-	      "url": "http://www.laguapachosa.com/",
-	      "photo": "https://i.imgur.com/DafP2pb.jpg"}
+	      {"name": "Westville Chelsea",
+	      "url": "http://westvillenyc.com/menu/",
+	      "photo": "https://i.imgur.com/WAZZsu9.jpg"},
+	      {"name": "Cotenna",
+	      "url": "http://places.singleplatform.com/cotenna/menu?ref=google",
+	      "photo": "https://i.imgur.com/peL1YTI.jpg"},
+	      {"name": "Shuka",
+	      "url": "http://places.singleplatform.com/shuka/menu?ref=google",
+	      "photo": "https://i.imgur.com/Ck9MMoR.jpg"}
 	    ],
 	    landmarks: [
-	      {"name": "Chapultepec Park",
-	      "url": "https://www.tripadvisor.com/Attraction_Review-g150800-d152193-Reviews-Chapultepec_Park-Mexico_City_Central_Mexico_and_Gulf_Coast.html",
-	      "photo": "https://i.imgur.com/WVg2Rwq.jpg"},
-	      {"name": "Playacar Beach",
-	      "url": "https://www.locogringo.com/mexico/ways-to-play/riviera-maya-beaches/playacar/",
-	      "photo": "https://i.imgur.com/ZRRhRDZ.jpg"},
-	      {"name": "Great Pyramid of Tenochtitlán",
-	      "url": "https://www.flightcentre.com.au/world-travel/mexico/mexico-city/great-pyramid-of-tenochtitlan",
-	      "photo": "https://i.imgur.com/cXtPeVn.jpg"}
+	      {"name": "Rockefeller Center",
+	      "url": "https://www.rockefellercenter.com/",
+	      "photo": "https://i.imgur.com/7kUj5qm.jpg"},
+	      {"name": "Central Park",
+	      "url": "http://www.centralparknyc.org/",
+	      "photo": "https://i.imgur.com/UMJzg3L.jpg"},
+	      {"name": "Bronx Zoo",
+	      "url": "https://bronxzoo.com/",
+	      "photo": "https://i.imgur.com/GfqRHzy.jpg"}
 	    ],
 	    activities: [
-	      {"name": "Palacio de Bellas Artes",
-	      "url": "https://www.tripadvisor.com/Attraction_Review-g150800-d153969-Reviews-Palacio_de_Bellas_Artes-Mexico_City_Central_Mexico_and_Gulf_Coast.html",
-	      "photo": "https://i.imgur.com/t7MKA9H.jpg"},
-	      {"name": "Xcaret Park",
-	      "url": "http://www.xcaret.com/",
-	      "photo": "https://i.imgur.com/JUbMOta.jpg"},
-	      {"name": "Frida Kahlo Museum",
-	      "url": "http://www.museofridakahlo.org.mx/",
-	      "photo": "https://i.imgur.com/xQS16UQ.jpg"}
+	      {"name": "Chelsea Market",
+	      "url": "http://chelseamarket.com/",
+	      "photo": "https://i.imgur.com/fSOf7fX.jpg"},
+	      {"name": "Comedy Cellar",
+	      "url": "http://www.comedycellar.com/",
+	      "photo": "https://i.imgur.com/PfHXcn5.jpg"},
+	      {"name": "Fifth Avenue Shopping",
+	      "url": "http://visit5thavenue.com/",
+	      "photo": "https://i.imgur.com/1OzX0Uk.jpg"}
 	    ]
 	}
 
 	render() {
 	    return (
 	      <div className="card">
-			<div className="rest">
+	     	<img className="resultPhoto" src={this.state.picture}/>
+			<div className="rest" id="itinerary">
 			    <h1>Restaurants</h1>
 			       	<div className="Grid">
 			      		<div id="rest1">
@@ -121,4 +123,4 @@ class MexLaidBack extends Component {
   
 }
 
-export default MexLaidBack;
+export default NYLaidBack;

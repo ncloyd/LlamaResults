@@ -2,48 +2,50 @@
 import React, {Component} from 'react';
 import "../cards.css";
 
-class LALaidBack extends Component {
+class LATourist extends Component {
 
 	state = {
+		picture: "https://raw.githubusercontent.com/ncloyd/LlamaResults/master/images/touristla.jpg",
 		restaurants: [
-	      {"name": "République",
-	      "url": "http://republiquela.com/menus/",
-	      "photo": "https://i.imgur.com/kahQnX5.jpg"},
-	      {"name": "Baroo",
-	      "url": "http://baroola.strikingly.com/",
-	      "photo": "https://i.imgur.com/MIcmQxA.jpg"},
-	      {"name": "Colori Kitchen",
-	      "url": "http://colorikitchen.com/colori_kitchen_dinner.html",
-	      "photo": "https://i.imgur.com/L0e6HcJ.jpg"}
+	      {"name": "Michael's Restaurant",
+	      "url": "http://www.michaelssantamonica.com/",
+	      "photo": "https://i.imgur.com/ugvouPc.jpg"},
+	      {"name": "Cassia",
+	      "url": "https://www.cassiala.com/",
+	      "photo": "https://i.imgur.com/rVIAsoz.jpg"},
+	      {"name": "Rose Cafe",
+	      "url": "http://rosecafevenice.com/",
+	      "photo": "https://i.imgur.com/0cSwmfP.jpg"}
 	    ],
 	    landmarks: [
-	      {"name": "Venice Beach Boardwalk",
-	      "url": "http://www.venicebeach.com/the-venice-beach-boardwalk/",
-	      "photo": "https://i.imgur.com/SY6wKjj.jpg"},
-	      {"name": "Bradbury Building",
-	      "url": "https://www.tripadvisor.com/Attraction_Review-g32655-d127352-Reviews-Bradbury_Building-Los_Angeles_California.html",
-	      "photo": "https://i.imgur.com/NSVGWNr.jpg"},
-	      {"name": "Capitol Records Building",
-	      "url": "https://www.tripadvisor.com/Attraction_Review-g32655-d156472-Reviews-Capitol_Records_Building-Los_Angeles_California.html",
-	      "photo": "https://i.imgur.com/wdTWwHX.jpg"}
+	      {"name": "Hollywood Hill",
+	      "url": "https://www.tripadvisor.com/Attraction_Review-g32655-d277005-Reviews-Hollywood_Hills-Los_Angeles_California.html",
+	      "photo": "https://i.imgur.com/QAV0ZTs.jpg"},
+	      {"name": "Hollywood Walk of Fame",
+	      "url": "http://www.walkoffame.com/",
+	      "photo": "https://i.imgur.com/87S6URb.jpg"},
+	      {"name": "Hollywood Boulevard",
+	      "url": "https://www.tripadvisor.com/Attraction_Review-g32655-d103401-Reviews-Hollywood_Boulevard-Los_Angeles_California.html",
+	      "photo": "https://i.imgur.com/luCQdda.jpg"}
 	    ],
 	    activities: [
-	      {"name": "Walt Disney Concert Hall",
-	      "url": "https://www.laphil.com/concerts-and-events/tickets-and-packages/",
-	      "photo": "https://i.imgur.com/NSVGWNr.jpg"},
-	      {"name": "Staples Center",
-	      "url": "https://www.staplescenter.com/",
-	      "photo": "https://i.imgur.com/MqoSvOT.jpg"},
-	      {"name": "Dearly Departed Tours",
-	      "url": "http://dearlydepartedtours.com/",
-	      "photo": "https://i.imgur.com/EEOHgJF.jpg"}
+	      {"name": "Universal Studios Hollywood",
+	      "url": "https://www.universalstudioshollywood.com/",
+	      "photo": "https://i.imgur.com/9e2yoJM.jpg"},
+	      {"name": "Grauman's Chinese Theatre",
+	      "url": "http://www.tclchinesetheatres.com/",
+	      "photo": "https://i.imgur.com/wTb5TAo.jpg"},
+	      {"name": "TMZ Celebrity Tour",
+	      "url": "https://www.tmztour.com/",
+	      "photo": "https://i.imgur.com/sIjgMrk.jpg"}
 	    ]
 	}
 
 	render() {
 	    return (
 	      <div className="card">
-			<div className="rest">
+	     	<img className="resultPhoto" src={this.state.picture}/>
+			<div className="rest" id="itinerary">
 			    <h1>Restaurants</h1>
 			       	<div className="Grid">
 			      		<div id="rest1">
@@ -121,4 +123,4 @@ class LALaidBack extends Component {
   
 }
 
-export default LALaidBack;
+export default LATourist;

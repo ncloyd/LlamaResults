@@ -2,48 +2,50 @@
 import React, {Component} from 'react';
 import "../cards.css";
 
-class LAAdventurous extends Component {
+class ChicagoTourist extends Component {
 
 	state = {
+		picture: "https://raw.githubusercontent.com/ncloyd/LlamaResults/master/images/touristchi.jpg",
 		restaurants: [
-	      {"name": "Wurstküche",
-	      "url": "https://www.wurstkuche.com/",
-	      "photo": "https://i.imgur.com/qHcgorI.jpg"},
-	      {"name": "Sushi Zo",
-	      "url": "http://sushizo.us/",
-	      "photo": "https://i.imgur.com/ACH9Xuc.jpg"},
-	      {"name": "Peddler's Creamery",
-	      "url": "http://www.peddlerscreamery.com/",
-	      "photo": "https://i.imgur.com/U1HwHdS.jpg"}
+	      {"name": "Pequod's Pizza",
+	      "url": "https://pequodspizza.com/",
+	      "photo": "https://i.imgur.com/59gOf4M.jpg"},
+	      {"name": "Lou Mitchell's Restaurant",
+	      "url": "http://www.loumitchells.com/",
+	      "photo": "https://i.imgur.com/bQqnyHZ.jpg"},
+	      {"name": "The Capital Grille",
+	      "url": "https://www.thecapitalgrille.com/locations/il/chicago/chicago-downtown/8008",
+	      "photo": "https://i.imgur.com/mmQ9Dm8.jpg"}
 	    ],
 	    landmarks: [
-	      {"name": "Griffith Observatory",
-	      "url": "http://griffithobservatory.org/",
-	      "photo": "https://i.imgur.com/7PZe3jR.jpg"},
-	      {"name": "Santa Monica Pier",
-	      "url": "http://santamonicapier.org/",
-	      "photo": "https://i.imgur.com/M8T3TJS.jpg"},
-	      {"name": "Chateau Marmont",
-	      "url": "http://www.chateaumarmont.com/",
-	      "photo": "https://i.imgur.com/LNaQxv4.jpg"}
+	      {"name": "Navy Pier",
+	      "url": "https://navypier.org/",
+	      "photo": "https://i.imgur.com/CD44qPT.jpg"},
+	      {"name": "Willis Tower",
+	      "url": "http://www.willistower.com/",
+	      "photo": "https://i.imgur.com/F40ecE9.jpg"},
+	      {"name": "Chicago Cultural Center",
+	      "url": "https://www.cityofchicago.org/city/en/depts/dca/supp_info/chicago_culturalcenter.html/",
+	      "photo": "https://i.imgur.com/P5gvRzo.jpg"}
 	    ],
 	    activities: [
-	      {"name": "LA River Kayak Safari",
-	      "url": "http://lariverkayaksafari.org/",
-	      "photo": "https://i.imgur.com/Wbg4Hkj.jpg"},
-	      {"name": "Enjoy The Mountain",
-	      "url": "https://www.enjoythemountain.com/",
-	      "photo": "https://i.imgur.com/PerhEaf.jpg"},
-	      {"name": "Maze Rooms",
-	      "url": "https://la.mazerooms.com/",
-	      "photo": "https://i.imgur.com/cPwtHan.jpg"}
+	      {"name": "Magnificent Mile",
+	      "url": "https://themagnificentmile.com/",
+	      "photo": "https://i.imgur.com/2sTYjxu.jpg"},
+	      {"name": "Art Institute of Chicago",
+	      "url": "http://www.artic.edu/",
+	      "photo": "https://i.imgur.com/Z7P69XQ.jpg"},
+	      {"name": "Al Capone Gangster Tour",
+	      "url": "https://chicagocrimetours.com/",
+	      "photo": "https://i.imgur.com/9lIl7D0.jpg"}
 	    ]
 	}
 
 	render() {
 	    return (
-	      <div className="card">
-			<div className="rest">
+	     <div className="card">
+	     	<img className="resultPhoto" src={this.state.picture}/>
+			<div className="rest" id="itinerary">
 			    <h1>Restaurants</h1>
 			       	<div className="Grid">
 			      		<div id="rest1">
@@ -118,7 +120,9 @@ class LAAdventurous extends Component {
 	      </div>
 	    );
 	}
+
+
   
 }
 
-export default LAAdventurous;
+export default ChicagoTourist;
