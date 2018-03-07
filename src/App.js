@@ -1,6 +1,7 @@
 import React from "react";
 import NavBar from "./components/NavBar";
 import Wrapper from "./components/Wrapper";
+import Footer from "./components/Footer";
 import "./app.css";
 
 const App = () => (
@@ -9,6 +10,8 @@ const App = () => (
   <NavBar />
 
   <Wrapper />
+
+  <Footer />
   
 </div>
 );
