@@ -7,37 +7,37 @@ class ChicagoAdventurous extends Component {
 	state = {
 		picture: "https://raw.githubusercontent.com/ncloyd/LlamaResults/master/images/adventurechi.jpg",
 		restaurants: [
-	      {"name": "Archipelago",
-	      "url": "http://www.archipelago-restaurant.co.uk/",
-	      "photo": "https://i.imgur.com/EeGVHD8.jpg"},
-	      {"name": "Bob Bob Ricard",
-	      "url": "https://www.bobbobricard.com/",
-	      "photo": "https://i.imgur.com/enjoHrF.jpg"},
-	      {"name": "Bunga Bunga",
-	      "url": "https://bungabunga-london.com/",
-	      "photo": "https://i.imgur.com/AGAvBgG.png"}
+	      {"name": "Fat Rice",
+	      "url": "http://www.eatfatrice.com/",
+	      "photo": "https://i.imgur.com/wq3M2ON.jpg"},
+	      {"name": "The Purple Pig",
+	      "url": "https://thepurplepigchicago.com/",
+	      "photo": "https://i.imgur.com/EeNzETQ.jpg"},
+	      {"name": "Restaurant Sarajevo",
+	      "url": "http://www.restaurantsarajevo.com/",
+	      "photo": "https://i.imgur.com/RMUqs4G.jpg"}
 	    ],
 	    landmarks: [
-	      {"name": "Millennium Bridge",
-	      "url": "https://www.thecheesebar.com/",
-	      "photo": "https://i.imgur.com/D6V8S56.png"},
-	      {"name": "Tate Modern",
-	      "url": "http://www.tate.org.uk/visit/tate-modern",
-	      "photo": "https://i.imgur.com/UZewJjV.jpg"},
-	      {"name": "London Dungeon",
-	      "url": "https://www.thedungeons.com/london/en/",
-	      "photo": "https://i.imgur.com/GvvJYp0.jpg"},
+	      {"name": "Skydeck",
+	      "url": "http://theskydeck.com/",
+	      "photo": "https://i.imgur.com/OahQoMv.jpg"},
+	      {"name": "Promontory Point",
+	      "url": "https://en.wikipedia.org/wiki/Promontory_Point_(Chicago)",
+	      "photo": "https://i.imgur.com/cTruzrp.jpg"},
+	      {"name": "Murder Castle",
+	      "url": "http://chicagoist.com/2015/11/02/i_was_born_with_the_devil_in_me_a_h.php",
+	      "photo": "https://i.imgur.com/0rDz1gx.jpg"}
 	    ],
 	    activities: [
-	      {"name": "The Crystal Maze",
-	      "url": "https://the-crystal-maze.com/",
-	      "photo": "https://i.imgur.com/zshBKkM.jpg"},
-	      {"name": "ArcelorMittal Orbit",
-	      "url": "http://arcelormittalorbit.com/",
-	      "photo": "https://i.imgur.com/qWZUKdw.jpg"},
-	      {"name": "Jack the Ripper Tour",
-	      "url": "https://www.jack-the-ripper-tour.com/",
-	      "photo": "https://i.imgur.com/yNjOuln.jpg"}
+	      {"name": "Go Ape Zipline",
+	      "url": "https://goape.com/Locations/Illinois/Chicago",
+	      "photo": "https://i.imgur.com/ewMFkrL.jpg"},
+	      {"name": "Chicago Detours",
+	      "url": "http://www.chicagodetours.com/",
+	      "photo": "https://i.imgur.com/wCaiuAJ.jpg"},
+	      {"name": "Chicagoland Skydiving Center",
+	      "url": "https://www.skydivecsc.com/",
+	      "photo": "https://i.imgur.com/LWyf9Vy.jpg"}
 	    ]
 	}
 
