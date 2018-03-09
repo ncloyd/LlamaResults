@@ -34,7 +34,7 @@ const Wrapper = props =>
     </a>
 
 	<div className="wrapper">
-		<NYLaidBack/>
+		<LALaidBack/>
 	</div>
 
 	<a className="chevron" href=".locationPhoto">
